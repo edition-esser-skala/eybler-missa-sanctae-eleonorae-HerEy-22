@@ -5,9 +5,10 @@
 \include "ees.ly"
 \include "ees_articulate.ly"
 
+hA = \once \override Accidental.stencil = ##f
 
 tempoKyrie = \tempoMarkup "Andante sostenuto"
-
+tempoGloria = \tempoMarkup "Allegro moderato"
 
 \include "notes/ob1.ly"
 \include "notes/ob2.ly"
