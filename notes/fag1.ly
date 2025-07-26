@@ -251,3 +251,179 @@ GloriaFagottoI = {
     h r\fermata \bar "|." %276 finis
   }
 }
+
+CredoFagottoI = {
+  \relative c {
+    \clef bass
+    \key g \major \time 6/4 \tempoCredo
+    R1.*5 %5
+    g'2.~\f g4 g g
+    g2.~ g4 g g
+    g2 h4 a2.
+    \pao g4 g a h d e
+    d g \pa fis8\cresc d a2.~\!\espressivo %10
+    a4 cis a d2 d4~
+    d d d d2 cis4 \pd
+    d r d h r \pa a~
+    a fis' d h4. cis8 d4 \pd
+    cis d e d2 e4 %15
+    fis2. g
+    fis e
+    c! h
+    ais h4 h h
+    dis fis \hA dis h2 c4 %20
+    h2 a4 g r g
+    \pao a r a h r h
+    h h h \pa h2.~
+    h4 h h h2.~
+    h4 \pd e d! c2. %25
+    c4 f e8 c \pao g4 g g
+    h4. c8 d e f d h4 h
+    h c d c2 c4
+    d g, h c2 d4
+    c c c d4.\fz cis8 d4 %30
+    e f d c r e
+    c r f d r \pa g,~
+    g c c g c d
+    g,2 f'4 e2 c4
+    g h d d2 fis!4 \pd %35
+    g d d e2.
+    d2 d4~ d c2~
+    c4 h2~ h4 a2~
+    a4 \pa g r r g\f g
+    h2 e4 d2 c4 \pd %40
+    h r r r2 r4
+    R1.
+    R\fermata \bar "||" %43 finis
+  }
+}
+
+EtIncarnatusFagottoI = {
+  \relative c {
+    \clef bass
+    \key e \major \time 3/4 \tempoEtIncarnatus
+      \set Score.currentBarNumber = #44
+    R2.*6 %49
+    r4 h'\pE cis %50
+    h r r
+    r r8 gis( h e)
+    gis4 r r
+    R2.*4 %57
+    \clef "treble_8" ais,2 cis4
+    fis r r
+    h,2 dis4 %60
+    gis r gis(\cresc
+    e) r e(
+    cis) r cis
+    \clef bass cis2.
+    h4\! r r %65
+    R2.*2
+    r8 dis-! dis([\cresc cis)] cis( h)
+    h2.\f
+    cis2\> gis4\! %70
+    \pao fis r r
+    r h\p h
+    h dis8( fis e cis)
+    \pao h8 r r4 r
+    \key e \minor r r8 h4(\fz g8) %75
+    r4 r8 c4(\fz a8)
+    r4 r8 fis'4(\fz a,8)
+    r4 r8 f'4(\fz gis,8)
+    r4 r8 \once \slurDashed e'4(\fz c8)
+    r4 r8 e4(\fz ais,8) %80
+    r4 r8 dis4(\fz h8)
+    r4 r8 c!4\fz( a8)
+    r4 r8 h4(\fz g8)
+    r4 r8 c4(\fz a8)
+    R2.*2 %86
+    r4 e' dis
+    e2 c4
+    h2.\fermata \bar "||" %89 finis
+  }
+}
+
+EtResurrexitFagottoI = {
+  \relative c {
+    \clef bass
+    \key g \major \time 4/4 \tempoEtResurrexit
+      \set Score.currentBarNumber = #90
+    \partial 8 r8 h'4\f fis g h
+    c a d r
+    h fis g h
+    fis g a fis
+    g a h4. g8
+    fis4 d \pa g8 d h d %95
+    g4 a2 a4 \pd
+    a2 cis4 e
+    d1
+    e
+    \pa a,4 a2 a4 %100
+    h r8 a \pd d4 e
+    fis \pa r8 d \pd h4 e
+    cis \pa r8 a \pd g'4 e
+    fis \pa r8 d \pd h4 cis
+    d r r2 %105
+    R1
+    e2 f
+    e f
+    e4 r r2
+    R1*5 %114
+    d1\f %115
+    e4 d2 cis4
+    d a \pa d, e
+    fis g a \pd c!
+    h fis g h
+    fis g a fis %120
+    g a h2
+    c4 h a c
+    h2 d
+    e d
+    g,4 a h cis %125
+    d2 a4 r
+    h h2 h4
+    \partCombineChords g'8 fis e d \pd cis2
+    cis~ cis4 h8 g
+    fis2 h4 ais %130
+    h cis \pa d8 g, e fis
+    h4 d e cis8 ais \pd
+    fis2 h4 r
+    R1*2 %135
+    h1\f
+    h
+    c4. d!8 e2
+    a,4 c fis, h~
+    h e2 e4 %140
+    dis \pa r8 h g4 dis
+    e fis g8 c a h
+    g4 \pd fis \pao e a
+    fis2 g4 r8 c
+    \pao h4 a \pao g c %145
+    a2 h4 r8 e
+    \pao d4 cis \pao h e
+    \pa cis2 d8 \hA cis h4~
+    h e8 d c h a4~
+    a d g, \pd r %150
+    R1*2
+    h4 g fis r
+    fis a g r8 h
+    c2 h %155
+    fis g
+    R1*4 %160
+    r4 a fis' d
+    h e a, r
+    fis2 g!
+    a4. cis,8 d4 r
+    \pa r g' e c! %165
+    a d g, r
+    r e'2 d8 c
+    h4 g'2 fis8 e
+    d4 e2 d8 c \pd
+    h4 r r2 %170
+    R1
+    \clef "treble_8" r2 r4 g'~\pE
+    g e d e
+    d2~ d4 r
+    r2 \clef bass g,4\f h %175
+    d \once \partCombineChords c h r\fermata \bar "|." %176 finis
+  }
+}

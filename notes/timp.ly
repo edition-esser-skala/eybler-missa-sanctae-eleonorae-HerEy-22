@@ -91,3 +91,85 @@ GloriaTimpani = {
     g2 r\fermata \bar "|." %276 finis
   }
 }
+
+CredoTimpani = {
+  \relative c {
+    \clef bass
+    \key c \major \time 6/4 \tempoCredo
+    R1.*5 %5
+    g2\f r4 r2 r4
+    g2 r4 r2 r4
+    g2 r4 r2 r4
+    R1.
+    r2 r4 g2.~\startTrillSpan %10
+    g2\stopTrillSpan r4 r2 r4
+    R1.*13 %24
+    r2 r4 c8 c16 c c8 c c c %25
+    c4 g c g8 g16 g g8 g g g
+    g4 r r r8 g16 g g8 g g g
+    g4 r r r2 r4
+    g4. g16 g g8 g c4 r r
+    R1. %30
+    r4 g g c r r
+    R1.*2
+    r2 r4 c r c
+    g r r r2 r4 %35
+    R1.*3
+    r2 r4 g\f r r
+    g r r r2 r4 %40
+    g r r r2 r4
+    R1.
+    R\fermata \bar "||" %43 finis
+  }
+}
+
+EtResurrexitTimpani = {
+  \relative c {
+    \clef bass
+    \key c \major \time 4/4 \tempoEtResurrexit
+      \set Score.currentBarNumber = #90
+    \partial 8 r8 R1*2 %91
+    c4\f r r2
+    c4 r r2
+    c4 r r2
+    R1*2 %96
+    g2~\startTrillSpan g4\stopTrillSpan r
+    R1*2
+    r4 g8. g16 g4 c %100
+    r g c r
+    R1*3
+    c4 r c r %105
+    c r r2
+    g8 \tuplet 3/2 8 { g16 g g } g8 g g4 r
+    g8 \tuplet 3/2 8 { g16 g g } g8 g g4 r
+    R1*3 %111
+    g2~\p\startTrillSpan g8\stopTrillSpan r r4
+    R1*2
+    g2~\f\startTrillSpan g4\stopTrillSpan r %115
+    R1
+    c4 r r2
+    R1*5 %122
+    r2 c4 r
+    g r c r
+    R1 %125
+    c8 \tuplet 3/2 8 { c16 c c } c8 c g4 r
+    R1*18 %144
+    c4\fE r c r %145
+    c8 c16 c c8 c c4 r
+    R1*6 %152
+    c4 c c r
+    c c c r
+    R1 %155
+    c8 c16 c c8 c c4 r
+    R1*8 %164
+    c4 r r2 %165
+    c2~\startTrillSpan c4\stopTrillSpan r
+    R1
+    r2 c8 c16 c c8 c
+    c4 r r c
+    c r r2 %170
+    R1*4
+    r4 c\fE c r %175
+    r c c r\fermata \bar "|." %176 finis
+  }
+}

@@ -226,3 +226,177 @@ GloriaOboeII = {
     h r\fermata \bar "|." %276 finis
   }
 }
+
+CredoOboeII = {
+  \relative c' {
+    \clef treble
+    \key g \major \time 6/4 \tempoCredo
+    R1.*5 %5
+    h'2.~\f h4 h h
+    c2.~ c4 c c
+    h2 g4 e a fis
+    g d c' h r a~
+    a cis d\cresc e2.\!\espressivo %10
+    cis2 a4 a2 a4
+    g fis g fis2 e4\trill
+    d r a' g r g
+    fis r a h4. a8 g4
+    fis2 e4 d a' a %15
+    h2. h
+    h h4. a8 g4
+    g2. g
+    g fis4 fis fis
+    fis h h fis' e c8 a %20
+    g2 fis4 e r h'
+    a r fis fis r fis
+    e g g g2.
+    fis4 fis fis fis2.
+    g4 h f' e2 c4 %25
+    g h c c h h
+    d4. c8 f, e d4 d d
+    d2 g4 g c e
+    d2 d4 d c gis
+    a a a a2\fz a4 %30
+    g!2 g4 e r g
+    f r a g r d'
+    c g f e2 d4
+    c g' g g2.
+    d'2 h4 a2. %35
+    g4 h a g2.
+    fis4 d g g2 a4
+    fis2 g4 e2 a4
+    d,2 a'4\f h h c
+    g2 a4 g2 fis4 %40
+    g r r r2 r4
+    R1.
+    R\fermata \bar "||" %43 finis
+  }
+}
+
+EtIncarnatusOboeII = {
+  \relative c' {
+    \clef treble
+    \key e \major \time 3/4 \tempoEtIncarnatus
+      \set Score.currentBarNumber = #44
+    R2.*6 %49
+    r4 gis'\pE a %50
+    gis r r
+    r r8 e( gis h)
+    e4 r r
+    R2.*3 %56
+    gis,2.\p
+    fis4 r r
+    ais2.
+    gis4 r r %60
+    r h(\cresc gis)
+    r gis( e)
+    r e( gis)
+    e2.
+    dis4\! r r %65
+    R2.*2
+    r8 fis-! fis([\cresc ais)] ais([ h)]
+    h2.\f
+    gis2\> e4\! %70
+    R2.*2
+    r4 h'8(\p dis cis ais)
+    h8 r r4 r
+    \key e \minor r r8 h4(\fz g8) %75
+    r4 r8 c4(\fz a8)
+    r4 r8 fis'4(\fz a,8)
+    r4 r8 h4(\fz gis8)
+    r4 r8 c4(\fz a8)
+    r4 r8 e'4(\fz ais,8) %80
+    r4 r8 dis4(\fz h8)
+    r4 r8 dis4(\fz fis,8)
+    r4 r8 e'4(\fz h8)
+    r4 r8 a4(\fz f8)
+    R2.*4 %88
+    R2.\fermata \bar "||" %89 finis
+  }
+}
+
+EtResurrexitOboeII = {
+  \relative c' {
+    \clef treble
+    \key g \major \time 4/4 \tempoEtResurrexit
+      \set Score.currentBarNumber = #90
+    \partial 8 d8\f g4 a h g
+    e a fis r8 d
+    g4 a h r8 d,
+    a'4 h c r8 d,
+    h'4 c d r
+    r8 d, fis a g fis g fis %95
+    g2 a4 cis8 d
+    e2 a,
+    a h
+    h a~
+    a4 cis e d~ %100
+    d cis d e
+    fis r8 d h4 e
+    cis r8 a g'4 e
+    fis r8 d h4 cis
+    d r r2 %105
+    R1
+    a
+    cis2 d
+    cis4 r r2
+    R1*5 %114
+    a1~\f %115
+    a4 a b a
+    d, e fis! g
+    a h! c! r8 d,
+    g4 a h r8 d,
+    a'4 h c r8 d, %120
+    h'4 c d g,~
+    g g a2
+    g4 g' fis2
+    cis d8. e16 fis4
+    r g, fis a~ %125
+    a d cis r
+    h dis e h
+    g4. gis8 fis2
+    e4 g'! ais, h8 cis
+    h4 ais h cis %130
+    d e fis8 h, cis ais
+    h4 fis2 ais4
+    cis2 h4 r
+    R1*2 %135
+    g2\f a
+    fis' e
+    e,4. gis8 a4. h8
+    a2 h4. a8
+    g4 h a a %140
+    h r8 h e,4 fis
+    g a h8 g a fis
+    e4 h'2 c4
+    dis,2 e4 r8 fis
+    g4 d'!2 e4 %145
+    fis,2 g4 r8 ais
+    h4 fis'2 g4
+    ais,2 h4 d~
+    d gis, a e
+    a2 g4 r %150
+    R1
+    r2 r4 r8 d
+    g4 h! a r8 d,
+    a'4 c h r8 d
+    c2 g %155
+    a g
+    R1*3
+    r2 r4 r8 e %160
+    a2 h
+    d cis4 r
+    r d h g
+    e a d, r8 d
+    g2 a %165
+    fis g4 r8 d'
+    e2 fis
+    g a4 c,
+    h2 a\trill
+    g4 r r2 %170
+    R1*3
+    r2 g4\f h
+    d r g, h %175
+    d a h r\fermata \bar "|." %176 finis
+  }
+}

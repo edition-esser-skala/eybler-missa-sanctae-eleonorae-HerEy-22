@@ -226,3 +226,179 @@ GloriaOboeI = {
     g r\fermata \bar "|." %276 finis
   }
 }
+
+CredoOboeI = {
+  \relative c' {
+    \clef treble
+    \key g \major \time 6/4 \tempoCredo
+    R1.*5 %5
+    d'2.~\f d4 d d
+    e2.~ e4 e e
+    \pa d g e d2 c4
+    h d fis, g h cis
+    d e fis\cresc g2.~\!\espressivo %10
+    g4 e \pd cis d2 cis4
+    h a g fis2 e4\trill
+    d r fis' \pao g, r e'
+    \pa fis, a \pd d d4. cis8 h4
+    a2 g4 fis fis' e %15
+    dis2. e
+    fis g4. fis8 e4
+    e2. e
+    e dis4 fis \hA dis
+    h dis fis a4. g8 fis4 %20
+    e2 dis4 e r g8 e
+    c4 r a'8 fis dis4 r fis8 a,
+    g4 h h h2.~
+    h4 h h h2.~
+    h4 g' g g2 e4 %25
+    c d e e d d
+    f4. e8 d c h4 d h
+    g a h c e g
+    g2 f4 f e e
+    e e e \appoggiatura { d16[ e] } f4.\fz e8 d4 %30
+    c d h c r c
+    a r d h r f'
+    e c a g2 f4\trill
+    e g' h, c2 e4
+    \pa d g h d,2 c4 \pd %35
+    h d d g e cis
+    d \pa r d e2.
+    d c \pd
+    h2 d4\f g fis e
+    d g, c h2 a4 %40
+    \pao g r r r2 r4
+    R1.
+    R\fermata \bar "||" %43 finis
+  }
+}
+
+EtIncarnatusOboeI = {
+  \relative c' {
+    \clef treble
+    \key e \major \time 3/4 \tempoEtIncarnatus
+      \set Score.currentBarNumber = #44
+    R2.*6 %49
+    r4 h'\pE cis %50
+    h r r
+    r r8 gis( h e)
+    gis4 r r
+    R2.*3 %56
+    e2\p cis4
+    ais r r
+    fis'2 dis4
+    h r r %60
+    r gis'(\cresc e)
+    r e( cis)
+    r cis( e)
+    ais,2.
+    h4\! r r %65
+    R2.*2
+    r8 h-! h([\cresc cis)] cis([ dis)]
+    dis2.\f
+    e2\> cis4\! %70
+    ais r r
+    R2.
+    r4 dis8(\p fis e cis)
+    \pao h r r4 r
+    \key e \minor r r8 g'4(\fz e8) %75
+    r4 r8 a4(\fz fis8)
+    r r4 a4(\fz fis8)
+    r4 r8 gis4(\fz h,8)
+    r4 r8 a'4(\fz c,8)
+    r4 r8 g'!4(\fz e8) %80
+    r4 r8 fis4(\fz dis8)
+    r4 r8 fis4(\fz dis8)
+    r4 r8 g4(\fz e8)
+    r4 r8 c4(\fz a8)
+    R2.*4 %88
+    R2.\fermata \bar "||" %89 finis
+  }
+}
+
+EtResurrexitOboeI = {
+  \relative c' {
+    \clef treble
+    \key g \major \time 4/4 \tempoEtResurrexit
+      \set Score.currentBarNumber = #90
+    \partial 8 d'8\f g4 a h g
+    e a fis r8 d
+    g4 a h r8 d,
+    a'4 h c r8 d,
+    h'4 c d r
+    r8 \pa a4 c,8 h fis g a %95
+    h4 cis \pd d e8 fis
+    g2 e4 cis
+    d2 h4 g
+    e'2 cis4 a
+    cis e g fis %100
+    e2\trill d4 e
+    fis r8 d h4 e
+    cis r8 a g'4 e
+    fis r8 d h4 cis
+    d r r2 %105
+    R1
+    cis2 d
+    e f
+    e4 r r2
+    R1*5 %114
+    \pa a1\f %115
+    g4 f e2 \pd
+    d4 e fis g
+    a h! c! r8 d,
+    g4 a h r8 d,
+    a'4 h c r8 d, %120
+    h'4 c d \pa d,
+    e d c fis \pd
+    g h a2
+    g fis8. g16 a4
+    r cis, d e %125
+    fis2 e4 r
+    e fis g fis
+    \pa e8 d cis h ais4 \hA cis
+    e2 \pd e4 d8 e
+    d4 cis \pa h cis %130
+    d e fis8 h, cis ais
+    h4 h ais \pd cis
+    e2 d4 r
+    R1*2 %135
+    e2\f dis
+    a' g
+    e4. d!8 c4. e8
+    a4. g8 fis2
+    g4 e c \pa a %140
+    h \pd r8 \pao h e4 fis
+    g a h8 e, fis dis
+    e4 \pa h2 c4
+    dis,2 e4 \pd r8 a
+    \pa g4 d'!2 e4 %145
+    fis,2 g4 \pd r8 cis
+    h4 fis'2 g4
+    ais,2 h4 d~
+    d gis, a h
+    c!2 h4 r %150
+    R1
+    r2 r4 r8 d
+    g4 h! a r8 d,
+    a'4 c h r8 g
+    e2 d %155
+    c h
+    R1*2
+    e,2\f fis
+    a gis4 r %160
+    R1
+    r2 r4 r8 a
+    \pa d2 e
+    g \pd fis4 r8 d
+    g2 a %165
+    fis g4 d~
+    d c8 h a4 fis'~
+    fis e8 d c4 a'~
+    a g2 fis4
+    g r r2 %170
+    R1*3
+    r2 \pa g,4\f h
+    d \pd r g h %175
+    d fis, g r\fermata \bar "|." %176 finis
+  }
+}

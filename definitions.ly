@@ -9,6 +9,9 @@ hA = \once \override Accidental.stencil = ##f
 
 tempoKyrie = \tempoMarkup "Andante sostenuto"
 tempoGloria = \tempoMarkup "Allegro moderato"
+tempoCredo = \tempoMarkup "Allegro moderato"
+  tempoEtIncarnatus = \tempoMarkup "Andante sostenuto"
+  tempoEtResurrexit = \tempoMarkup "Allegro con spirito"
 
 \include "notes/ob1.ly"
 \include "notes/ob2.ly"
@@ -16,6 +19,8 @@ tempoGloria = \tempoMarkup "Allegro moderato"
 \include "notes/fag2.ly"
 \include "notes/clno1.ly"
 \include "notes/clno2.ly"
+\include "notes/trb1.ly"
+\include "notes/trb2.ly"
 \include "notes/timp.ly"
 \include "notes/vl1.ly"
 \include "notes/vl2.ly"

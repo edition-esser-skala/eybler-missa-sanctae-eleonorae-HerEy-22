@@ -317,3 +317,213 @@ GloriaViola = {
     h2 r\fermata \bar "|." %276 finis
   }
 }
+
+CredoViola = {
+  \relative c' {
+    \clef alto
+    \key g \major \time 6/4 \tempoCredo
+    r4 d\f d e h h
+    c g a~ a a' d,~
+    d h g e' d d~
+    d c h c g a~
+    a c d,~ d h' g %5
+    d'2 h4 g h g
+    e'2 c4 g c g
+    d'2 h4 a a' fis
+    g d fis g, g' e
+    a g fis e cis e~ %10
+    e cis a~ a a' a
+    g fis g fis d cis
+    d a' fis h, g' e
+    a, d d d h d
+    cis d a2 a'4 a %15
+    h dis, fis h, h' h
+    h h, h h h' g
+    e g, e' g e g
+    e cis cis fis, fis' fis
+    dis h a' fis e c' %20
+    h h, a' g e h
+    a c fis,~ fis fis' dis
+    e g, h g e' e
+    h dis h fis' \hA dis dis
+    e h d g, g' g %25
+    g h, c c h g8 h
+    d c h c d e f4 d h
+    g g g g2 g'8 e
+    d4 h d g, e' gis,
+    a c e d a' a %30
+    g!2 f4 e c c
+    c a d d h g
+    g g' c, h c g~
+    g c h c e g~
+    g g, d'~ d a fis'
+    g h, a h h' g
+    fis d d'~ d c c~
+    c h h~ h a a~
+    a g a\f h h, c
+    d h e d h c
+    h g h'2 a4 a~
+    a g g2 a4 fis8 c
+    h4 r r r2 r4\fermata \bar "||"
+  }
+}
+
+EtIncarnatusViola = {
+  \relative c' {
+    \clef alto
+    \key e \major \time 3/4 \tempoEtIncarnatus
+      \set Score.currentBarNumber = #44
+    e'2(\p h4)
+    cis2( gis4) %45
+    a a,( cis)
+    r h h
+    h e e
+    e r r
+    r << {
+      h8( gis) cis( e) %50
+      h4
+    } \\ {
+      gis8( e) a( cis) %50
+      gis4
+    } >> r r
+    R2.
+    e''2( h4)
+    \once \slurDashed cis2( gis4)
+    a( a, cis) %55
+    fis, h h
+    r cis cis
+    r cis cis
+    r dis dis
+    r dis dis %60
+    e r h'8.(\cresc gis16
+    e4) r gis8.( e16
+    cis4) r cis
+    ais cis fis,
+    fis8 r h4\p h %65
+    r h( gis)
+    r fis fis
+    r8 fis-! fis([\cresc cis')] cis( h)
+    h4 r dis-!\f
+    gis-! e-! r %70
+    r << {
+      ais, cis8( h)
+      h4 fis'8( dis) gis( h)
+      fis2 ais4
+    } \\ {
+      fis,4\pp fis %71
+      fis dis'8( h) e( gis)
+      dis2 fis4
+    } >>
+    h8( ais a gis g fis)
+    \key e \minor e4 r8 << { g4( e8) } \\ { h4(\fz g8) } >> %75
+    r4 r8 << { a'4( fis8) } \\ { c4(\fz a8) } >>
+    r4 r8 << { a'4( fis8) } \\ { fis4(\fz h,8) } >>
+    r4 r8 << { h'4( d,8) } \\ { d!4(\fz h8) } >>
+    r4 r8 << { c'4( e,8) } \\ { e4(\fz c8) } >>
+    r4 r8 << { ais'4( e8) } \\ { e4(\fz g,8) } >> %80
+    r4 r8 << { h'4( fis8) } \\ { dis4(\fz h8) } >>
+    r4 r8 << { c'4( a8) } \\ { a4(\fz dis,8) } >>
+    r4 r8 << { h'4( g8) } \\ { g4(\fz e8) } >>
+    r4 r8 << { f4( c8) } \\ { c4\fz c8 } >>
+    r4 h4.\p e,8 %85
+    fis!2 h4
+    h g a~
+    a g fis
+    g2.\fermata \bar "||" %89 finis
+  }
+}
+
+EtResurrexitViola = {
+  \relative c' {
+    \clef alto
+    \key g \major \time 4/4 \tempoEtResurrexit
+      \set Score.currentBarNumber = #90
+    \partial 8 r8 h\f d fis, d' g, d' h d
+    c e a, c d d, d' c
+    h d fis, d' g, d' h d
+    fis, d' g, d' a d fis, d'
+    g, d' a d h d h g
+    fis a' fis d g d h d %95
+    g g, e' e, fis' fis, a d
+    cis e, a \hA cis e \hA cis a g
+    fis a d fis, g d' h g
+    gis h e \hA gis, a e' cis a
+    e' a e cis a \hA cis d fis, %100
+    g h' a a, d a cis a
+    d a fis a g h e, g
+    a cis e a e a, cis a
+    d d' h, h' g, g' a, a'
+    d, d' d, c! b b' \hA b, a %105
+    g g' g, f e \hA f g gis
+    a <cis e>4 q8 <d f> q4 q8
+    <cis e> q4 q8 <d f> q4 q8
+    <cis e>4 r r2
+    r4 r8 \tuplet 3/2 8 { a'16\p h! cis } d4-! a-! %110
+    f-! d-! b2\trill
+    a8( b a \hA b) a( d cis\cresc f)
+    e( b' a g) f( e d cis)
+    d-!\fE d-! a-! f-! e-! e'-! cis-! g-!
+    f-! g-! a-! h!-! cis-! d-! e-! f-! %115
+    e-! cis-! d-! f-! \parOn g-\parenthesize-! e-! a-! \parOff a,-\parenthesize-!
+    d a cis a d a e' a,
+    fis'! d g d a' fis d c!
+    h d fis, d' g, d' h d
+    fis, d' g, d' a d fis, d' %120
+    g, d' a d h d h g
+    c c' h h, a a' fis c
+    h d g, h d a' fis d
+    a' e cis a d a fis d
+    g g' a a, h h' cis cis, %125
+    d a' fis d a e' cis a
+    g h fis h e, h' d, h'
+    cis, d e eis fis gis ais h
+    cis d e \hA cis fis fis, g e
+    fis e fis fis' h, fis' ais, fis' %130
+    h, fis' cis fis d g e fis
+    h, d fis h cis, e ais cis
+    ais, cis fis ais h, d fis h
+    g,\p h d g, a c fis a,
+    fis a d fis, g h d g, %135
+    e\f g h e fis, a dis fis
+    dis, fis h dis e, g h e
+    c c' c, h a a' a, g
+    fis fis' fis, e dis fis h dis
+    e fis g gis a h c c, %140
+    h dis fis h, g h dis, h'
+    e, h' fis h g c a h
+    g e' dis h e g, a c
+    h c h a g e' d! c
+    h g' fis d g h, c e %145
+    d e d c h g' fis e
+    d h' ais fis h d, e g
+    fis g fis e d cis h a!
+    gis h e d c h a g
+    fis a d fis, g h d fis %150
+    g\fz a b g es\fz f g \hA es
+    cis\fz g b \hA cis d fis,! a c
+    h d g, d' fis, d' d, d'
+    fis, d' a d g, d' h g
+    c g' e c h g' d h %155
+    a c fis a g g, h d
+    g4 r r2
+    r r8 h,4\f a8
+    g e fis g a fis g a
+    h h cis dis e gis h d, %160
+    cis a h \hA cis d h \hA cis d
+    e e, fis gis a cis e g
+    fis d e fis g e fis g
+    a a, h cis d fis a c,
+    h g a h c a h c %165
+    d d, d' c h d g h,
+    c e a, c d fis h, d
+    e g c, e fis a d, fis
+    g h e, g c, e d c
+    h4 r r16 g' g d d h h g %170
+    g4 r r2
+    r r4 g'~\p
+    g8 e( c e) h( d c e)
+    r h( d fis,) g16\f g' g g h, h' h h
+    d, d' d d fis, a a a g, g' g g h, h' h h %175
+    d, d' d d a c c c h4 r\fermata \bar "|." %176 finis
+  }
+}

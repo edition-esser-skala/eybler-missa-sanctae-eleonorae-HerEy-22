@@ -322,3 +322,202 @@ GloriaViolinoII = {
     <g h, d, g,> r\fermata \bar "|." %276 finis
   }
 }
+
+CredoViolinoII = {
+  \relative c' {
+    \clef treble
+    \key g \major \time 6/4 \tempoCredo
+    <g' g,>8.\f h16 h8.\trill a32 h d8 h g'8. g,16 g8.\trill fis32 g h8 g
+    e'8. e,16 e8.\trill d32 e c'8 e d,8. c'16 c8.\trill h32 c a'8 c,
+    h8. d16 d8.\trill c32 d g8 h, c8. fis16 fis8.\trill e32 fis a8 c,
+    d8. g16 g8.\trill fis32 g h8 g e8. e,16 e8.\trill d32 e c'8 e
+    d,8. fis'16 fis8.\trill e32 fis a8 c h8. g16 g8.\trill fis32 g d8 g %5
+    h,8. d16 d8.\trill c32 d g8 d h8. g16 g8.\trill fis32 g d'8 h
+    e8. c16 c8.\trill h32 c g8 c e8. g16 g8.\trill fis32 g e8 c
+    h8. d16 d8.\trill c32 d g8 h, d8. e,16 e8.\trill d32 e c'8 a
+    h8. g16 g8.\trill fis32 g a8 c, h8. h'16 h8.\trill a32 h e,8 cis'
+    d8. a16 a8.\trill gis32 a fis'8 d a8. g'16 g8.\trill fis32 g e8 cis %10
+    g8. e16 e8.\trill d32 e e'8 cis a8. d16 d8.\trill \hA cis32 d d,8 cis'
+    h8. d,16 d8.\trill cis32 d g,8 g' a,8. fis'16 fis8.\trill e32 fis g8 e
+    d8. d'16 d8.\trill cis32 d fis8 a, g8. cis16 cis8.\trill h32 \hA cis e8 g,
+    fis8. a16 a8.\trill g32 a d,8 d' h8. d,16 d8.\trill cis32 d g8 h
+    cis,8. a'16 a8.\trill gis32 a e'8 g fis8. fis,16 fis8.\trill e32 fis e8 e' %15
+    dis8. h16 h8.\trill a32 h fis'8 dis e8. h16 h8.\trill a32 h g'8 e
+    fis8. h,16 h8.\trill a32 h a'8 fis g8. g,16 g8.\trill fis32 g e8 g
+    e'8. e,16 e8.\trill d!32 e g8 c e8. g,16 g8.\trill fis32 g h8 e
+    g8. e16 e8.\trill dis32 e g8 e dis8. h'16 h8.\trill ais32 h fis8 \hA dis
+    h8. fis'16 fis8.\trill e32 fis dis8 fis a8. h,16 h8.\trill a32 h a8 fis' %20
+    e8. g,16 g8.\trill fis32 g fis8 dis' e,8. h'16 h8.\trill a32 h g'8 e
+    c8. a16 a8.\trill gis32 a a'8 fis dis8. h16 h8.\trill a32 h fis'8 a,
+    g8. h16 h8.\trill a32 h e8 g h8. h,16 h8.\trill a32 h g8 e
+    fis8. h16 h8.\trill a32 h dis8 fis h8. h,16 h8.\trill a32 h a8 fis
+    g8. g'16 g8.\trill fis32 g d8 f e8. e,16 e8.\trill d32 e e'8 c %25
+    g8. f'16 f8.\trill e32 \hA f e8 c g8. d'16 d8.\trill c32 d h8 d
+    f8. g,16 g8.\trill fis32 g h8 c d8. h,16 h8.\trill a32 h d8 g
+    h8. c16 c8.\trill h32 c d8 h g8. c16 c8.\trill h32 c e8 c
+    g8. g'16 g8.\trill fis32 g h,8 d f8. g,16 g8.\trill fis32 g e8 d'
+    c8. e16 e8.\trill d32 e c8 a f'8. a,16 a8.\trill gis32 a d,8 f %30
+    e8. g'!16 g8.\trill fis32 g h,8 d c8. g16 g8.\trill fis32 g e'8 c
+    a8. d16 d8.\trill cis32 d f8 d h8. f16 f8.\trill e32 \hA f d'8 \hA f,
+    e8. c'16 c8.\trill h32 c a8 a' g8. g,16 g8.\trill fis32 g d'8 f,
+    e8. g16 g8.\trill fis32 g d'8 g, e'8. g16 g8.\trill fis!32 g e8 c
+    d8. h16 h8.\trill a32 h h'8 g d8. fis,16 fis8.\trill e32 fis a8 c %35
+    h8. d16 d8.\trill cis32 d a8 d g,8. g'16 g8.\trill fis32 g e8 cis
+    d8. fis,16 fis8.\trill e32 fis g8 d e8. e'16 e8.\trill d32 e c'!8 e,
+    d8. d,16 d8.\trill cis32 d h'8 d, c8. c'16 c8.\trill h32 c a'8 c,
+    h8. h,16 h8.\trill a32 h d'8\f d, g'8. h,16 h8.\trill a32 h e8 e,
+    d'8. g,16 g8.\trill fis32 g e8 c' h8. g'16 g8.\trill fis32 g a,8 fis' %40
+    g,8. d'16 d8.\trill cis32 d h'8 h, c8. fis16 fis8.\trill e32 fis a8 a,
+    h8. g'16 g8.\trill fis32 g d8 h e8. e,16 e8.\trill d32 e c8 a
+    h4 r r r2 r4\fermata \bar "||" %43 finis
+  }
+}
+
+EtIncarnatusViolinoII = {
+  \relative c' {
+    \clef treble
+    \key e \major \time 3/4 \tempoEtIncarnatus
+      \set Score.currentBarNumber = #44
+    r4 h'(\p dis)
+    r gis,( h) %45
+    r cis,( fis)
+    r a, a
+    gis gis'8( e) a( cis)
+    gis4 r r
+    r gis8( e) a( cis) %50
+    gis4 r r
+    R2.
+    r4 h( dis)
+    r gis,( h)
+    r8 e,( a fis gis e) %55
+    fis( h, dis fis e gis)
+    cis, r e4( gis)
+    r cis,( ais)
+    r fis'( ais)
+    r dis,( h) %60
+    h'8 r e8.(\cresc h16 gis4)
+    r cis8.( gis16 e4)
+    r gis8.( cis16 e4)
+    e,8.( cis16) ais4 cis
+    h8 r dis4\p dis %65
+    r e( cis)
+    r ais ais
+    r8 h-! h([\cresc cis)] cis( dis)
+    dis4 r <gis h,>-!\f
+    <cis gis>-! <e cis gis>-! r %70
+    r cis,\pp ais8( h)
+    h4 dis'8( h) e( gis)
+    dis4.( h8 cis e,)
+    dis r r4 r
+    \key e \minor h8\fz h r e-!\p r g-! %75
+    c,\fz c r fis-!\p r a-!
+    <a h,>\fz q r a-!\p r fis-!
+    <f d!>\fz q r gis-!\p r h,-!
+    <e c>\fz q r a-!\p r c-!
+    <e, g,>\fz q r e'-!\p r e,-! %80
+    dis\fz dis r h'-!\p r dis-!
+    dis,\fz dis r fis-!\p r dis-!
+    <e g,>\fz q r g-!\p r e-!
+    c\fz c r f-!\p r a-!
+    r4 a, g %85
+    h2~ h8 a
+    g4 h c
+    h2 a4
+    g2.\fermata \bar "||" %89 finis
+  }
+}
+
+EtResurrexitViolinoII = {
+  \relative c' {
+    \clef treble
+    \key g \major \time 4/4 \tempoEtResurrexit
+      \set Score.currentBarNumber = #90
+    \partial 8 d8-!\f g4-! a-! c16 h ais h a g fis g
+    fis e c'  h d c h a g fis h a g fis e d
+    g d d d a' d, d d c' h ais h a g fis g
+    a d, d d h' d, d d d' c h c h a gis a
+    h d, d d c' d, d d d d' c h a g fis e
+    d a' fis g a h c a h g fis a g h a c %95
+    h d cis h \hA cis e d \hA cis d fis e d cis d e fis
+    a g fis g fis e dis e d cis fis e d \hA cis h a
+    d a a a fis d' d d c h a h a g fis g
+    e' h h h gis e' e e d cis h \hA cis h a gis a
+    d cis his \hA cis fis e dis e g! a, a a fis' d d d %100
+    h g g g e cis cis cis d4-! e-!
+    g16 fis e fis e d cis d \hA cis h g' fis a g fis e
+    d cis h a gis a \hA cis e g!4-! e-!
+    g16 fis h a g fis e d cis h ais h d \hA cis h \hA cis
+    d8 \tuplet 3/2 8 { a'16[ b c!] } d8 d, r \tuplet 3/2 8 { f16 g a } b8 b, %105
+    r \tuplet 3/2 8 { d16 e f } g8 g, r a' g f
+    e4 r8 <cis' e> <d f> r r \hA q
+    <cis e> r r \hA <a cis e> <d, d' f> r r \hA <d a' f'>
+    <a' cis e>4 r r2
+    r4 r8 \tuplet 3/2 8 { a16\p h! cis } d4-! a-! %110
+    f-! d-! b2\trill
+    a8( b a \hA b) a( d cis\cresc f)
+    e( b' a g) f( e d cis)
+    d\f f'4 d,8-! cis-! g''4 \hA cis,,8-!
+    d-! a'4 f d a8~ %115
+    a g'-! f-! a-! b-! g-! e-! cis-!
+    d4-! e-! g16 fis e fis a g fis g
+    h a gis a c! h a h d c h a g fis e d
+    g d d d a' d, d d c' h a h a g fis g
+    a d, d d h' d, d d d' c h c h a gis a %120
+    h d, d d c' d, d d d' c h a g fis e d
+    e fis g e d fis g d c h a h c d e fis
+    g d d d h' g g g fis a a a d, fis fis fis
+    cis e e e a, g' g g fis a a a a, d d d
+    cis h ais h d \hA cis h \hA cis e d \hA cis d fis e dis e %125
+    fis d d d a fis' fis fis e a a a a cis cis cis
+    e h h h fis' h, h h g' h, h h fis' h, h h
+    e fis d e cis d h \hA cis ais h gis \hA ais fis \hA ais \hA cis d
+    e fis fis g! g e e cis ais h \hA cis \hA ais h h' g e
+    d h d, h' ais cis, ais \hA cis h4-! \hA cis-! %130
+    e16 d cis d fis e d e g fis e d d \hA cis h ais
+    h fis' fis fis d h' h h ais fis fis fis cis' fis, fis fis
+    fis cis' cis cis cis fis, fis fis d' h h h fis d d d
+    h\p d d d h g' g g fis d d d a'! d, d d
+    d a' a a a d, d d g d d d h g g g %135
+    g'\f e' e e g e e e dis h h h fis h h h
+    h fis' fis fis fis h, h h e h h h g e e e
+    e e' e e e f d! e c c, c c c d h c
+    a a' a a a h g a fis! h, h h h dis fis a
+    g a fis g e fis d e c d h c a h g a %140
+    h4 r8 h e4-! fis-!
+    a16 g fis g h a gis a c h a g g fis e dis
+    e h' h h fis h h h g h h h c e, e e
+    dis fis fis fis fis dis' dis dis e g, g g fis a a a
+    g d d d a' d, d d h' d, d d e g g g %145
+    fis a a a a fis' fis fis g h, h h ais cis cis cis
+    h fis fis fis cis' fis, fis fis d' fis, fis fis g h, h h
+    ais cis cis cis cis ais' ais ais h fis fis fis fis d' d d
+    d h h h gis e e e e a a a a h h c!
+    c a a a fis d d d d g g g g a a b %150
+    b\fz g g g d b b b g'\fz es es es b g g g
+    es'\fz b b b b g' g g fis! d' a fis d8 d-!
+    g4-! h!-! a16 fis a fis d fis d fis
+    a4-! c-! h16 g d h g h d g
+    e c c c g e' e e d h h h g' d d d %155
+    c fis fis fis a c, c c h d d d d g g g
+    h4 r r2
+    r r8 h,16\f cis dis e fis \hA dis
+    e h h h g' e e e c a a a a' fis fis fis
+    dis h h h fis' a a a gis h h h e, gis gis gis %160
+    a e e e cis a' a a fis d d d h h' h h
+    gis e e e h' d, d d cis e e e a \hA cis cis cis
+    d a a a fis d d d h' g! g g g e e e
+    cis a' a a e g g g fis a a a d, fis fis fis
+    g d d d h g' g g e c c c a a' a a %165
+    fis d d d a' fis fis fis g d d d d g g g
+    e c c c c a' a a fis d d d d h' h h
+    g e e e e c' c c c a a a fis c c c
+    h d d d g h h h e, c' c c fis, a a a
+    g h h g g d d h h g' g d d h h g %170
+    g4 r r2
+    r r4 d'\p
+    e8 g4 c8 h( g e c)
+    h( d c d) h4 r
+    r <d fis a>\f <g, d' h'> r %175
+    r <d' a' fis'> <g, d' h' g'> r\fermata \bar "|." %176 finis
+  }
+}

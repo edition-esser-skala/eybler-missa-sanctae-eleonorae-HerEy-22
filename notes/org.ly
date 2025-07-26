@@ -656,3 +656,363 @@ GloriaBassFigures = \figuremode {
   r2 <7> %275
   <3>1 %276 finis
 }
+
+CredoOrgano = {
+  \relative c {
+    \clef bass
+    \key g \major \time 6/4 \tempoCredo
+    \mvTr g4\f-\solo g' fis e, e' d
+    c, c' a fis fis' fis,
+    g-\tutti h e a, d c
+    h a g c c' a-\solo
+    fis a fis g d h %5
+    g-\tutti h d g d h
+    g c e g e c
+    g h' g a a, d
+    g, h d g g, g'
+    fis e d cis e \hA cis %10
+    a a' g fis fis, fis'
+    g, a h a a' a,
+    d fis d e a, cis
+    d fis fis, g g' g,
+    a h cis d d, c' %15
+    h h' a g fis e
+    dis cis h e e, e'
+    c c' c, h h' h,
+    ais ais' \hA ais, h dis fis
+    h a fis dis e a, %20
+    h h' h, e g-\solo e
+    a fis dis h \hA dis h
+    e-\tutti h' g e g h
+    dis, h' fis \hA dis fis h
+    e, e' h c c, c' %25
+    e, d! c g' g, g'
+    g, g' g g, g' g
+    g, g' f e g c,
+    h d g, c c' h
+    a a, a' d,\fz e f %30
+    g g, g' c, e-\solo c
+    f, f' d g, d'' h,-\tutti
+    c e, f g a h
+    c e g c c, c'
+    h d g, fis! a d, %35
+    g g, fis' e g a
+    d, d' h, c! c' a,
+    h h' g, a a' fis,
+    g g' fis\f e d c
+    h e c d d' d, %40
+    g h-\solo g a d, fis
+    g e h c a d
+    g, r r r2 r4\fermata \bar "||" %43 finis
+  }
+}
+
+CredoBassFigures = \figuremode {
+  r1.
+  r2. <[6 5]>
+  r2 <5>4 q <6> <4\+>
+  <6> <\t> <6> <6>2.
+  \bo <[6]>4 <6> \bc <[\t]>1 %5
+  <\l> \bassFigureExtendersOn q4 q
+  <6 4>1 q4 q \bassFigureExtendersOff
+  r2 <6>4 <4>2 <7>4
+  r2 <[7]>2. <4\+>4
+  <6> <6\\>2 <[6 5]>2. %10
+  <7 _+> <6>2 <5\+>4
+  r <6 4> <6> <6 4> <\t \t> <[7] _+>
+  r2. <5>4 <7 _+>2
+  r1.
+  <8 6 _+>4 <\t \t 3> <6 5>2. <6>4 %15
+  <_+>2 \bassFigureExtendersOn q4 <6>2 q4
+  <6\!>2 <6>4 \bassFigureExtendersOff r2.
+  r <6 4>
+  <7 _+> <_+>2 \bassFigureExtendersOn q4
+  <_+\!>2 <_+>4 \bassFigureExtendersOff \bo <[6 5]> <5 4>8 \bc <[\t 3]> <6 _!>4 %20
+  <6 4> <\t \t> <[7] _+> r2.
+  r2. <[_+]>
+  <\l>1 \bassFigureExtendersOn q4 q
+  <6>1 q4 q \bassFigureExtendersOff
+  r2 <6 5! [_!]>4 r2. %25
+  r4 <6 _!>2 <6 4>4 <5 3>2
+  <7!>2 \once \bassFigureExtendersOn q4 <5>2.
+  r4 <4 2> <6 4> <6>2 \once \bassFigureExtendersOn q4
+  <6> <\t> <7!> <\t> <3> <6\\ 4 3>
+  r2. <_!>4 <\t>8 <6\\> <6>4 %30
+  <6 4[!]> <7! 5> <\t \t> r2.
+  \bo <[5]>4 \bc <[6]>1 <6 5!>4
+  r2. <8 6 3>4 <\t \t 3> <5!>
+  r2 <5>1
+  <6>2 \once \bassFigureExtendersOn q4 <6> <\t> <7 _+> %35
+  r2 <6>4 <5>2 <7 _+>4
+  r2 <6>4 <9> <8>2
+  <9>4 <8>2 <9>4 <8>2
+  <9>4 <[8]> <6> <5 3> <\t 3>2
+  <6>4 <5> <8 6> <6 4> <\t \t> <[7] _+> %40
+  r2. \bo <9>4 <5>2
+  <9>4 <5> <6>2. \bc <[7]>4
+  r1. %43 finis
+}
+
+EtIncarnatusOrgano = {
+  \relative c {
+    \clef "treble_8"
+    \key e \major \time 3/4 \tempoEtIncarnatus
+      \set Score.currentBarNumber = #44
+    e'2(\p^\senzaOrg h4)
+    cis2( gis4) %45
+    a \clef bass fis(\p a)
+    h2 h,4
+    e \clef "treble_8" e' e
+    e r \clef bass a,,
+    h e e %50
+    e r \clef "treble_8" e8( gis)
+    h4 e r
+    e2( h4)
+    cis2( gis4)
+    \clef bass a( fis e) %55
+    dis( h e)
+    r cis( e)
+    r fis( e)
+    r dis( fisis)
+    r gis( fis) %60
+    e r e'(\cresc
+    cis) r cis(
+    e,) r cis(
+    fis) r fis,
+    h8 r h'4\p h %65
+    r e, e
+    r fis fis
+    r8 h-! h([\cresc ais)] ais( gis)
+    gis4 r gis-!\f
+    e-! cis-! r %70
+    r fis,\pp fis
+    h r r
+    r fis' fis \noBreak
+    h8( ais a gis g fis)
+    \key e \minor \mvTrh e\fz-\tutti r e\p r e r %75
+    e\fz r e\p r e r
+    dis\fz r \hA dis\p r \hA dis r
+    d\fz r d\p r d r
+    c\fz r c\p r c r
+    c\fz r c\p r c r %80
+    h\fz r h\p r h r
+    a\fz r a\p r a r
+    g\fz r g\p r g r
+    a\fz r a\p r a r
+    h2.~-\tasto %85
+    h
+    << {
+      e~
+      e2 dis4
+      e2.\fermata
+    } \\ {
+      e,2.~ %87
+      e~
+      e
+    } >> \bar "||" %89 finis
+  }
+}
+
+EtIncarnatusBassFigures = \figuremode {
+  r2.*31 %74
+  <_!>2. %75
+  <4 2>
+  <6 5>
+  <4\+ _!>
+  <6>
+  <6\\> %80
+  <_+>
+  <4\+ _!>
+  <6>
+  <6!>
+  r %85
+  r
+  r
+  r
+  r %89 finis
+}
+
+EtResurrexitOrgano = {
+  \relative c {
+    \clef bass
+    \key g \major \time 4/4 \tempoEtResurrexit
+      \set Score.currentBarNumber = #90
+    \partial 8 r8 \mvTr h'8\f-\solo d fis, d' g, d' h d %90
+    c e a, c d d, d' c
+    h-\tutti d fis, d' g, d' h d
+    fis, d' g, d' a d fis, d'
+    g, d' a d h d h g
+    fis a fis d g d h d %95
+    g, g' e, e' fis, fis' a d
+    cis, e a cis e \hA cis a g
+    fis a d fis, g d' h g
+    gis h e \hA gis, a e' cis a
+    e a e cis a cis' d fis, %100
+    g e a a, d-\solo a' cis, a'
+    d, a' fis a g h e, g
+    a, cis e a e a cis, a'
+    d, d' h, h' g, g' a, a'
+    d,-\tutti d' d, c! b b' \hA b, a %105
+    g g' g, f e \hA f g gis
+    a cis e a a, d f a
+    a, cis e a a, d f a
+    a,4 r r2
+    r4 r8 \mvTr \tuplet 3/2 8 { a'16\p-\solo h cis } d4-! a-! %110
+    f-! d-! b2
+    a8( b a \hA b) a( d cis\cresc f)
+    e( b' a g) f( e d cis)
+    \mvTr d-!\f-\tutti d'-! a-! f-! e-! e'-! cis-! g-!
+    f-! g-! a-! h!-! cis-! d-! e-! f-! %115
+    cis-! a-! d-! f,-! g-! e-! a-! a,-!
+    d-\solo a' cis, a' d, a' e a
+    fis! d' g, d' a d d, c'!
+    h d fis, d' g, d' h d
+    fis, d' g, d' a d fis, d' %120
+    g, d' a d h d h g
+    c c, h h' a fis d c'
+    h-\tutti d g, h d a fis d
+    a' e cis a d a fis d
+    g g' a a, h h' cis cis, %125
+    d a' fis d a cis e a
+    g h fis h e, h' d, h'
+    cis, d e eis fis gis ais h
+    cis d e \hA cis fis fis, g e
+    fis e fis fis, h-\solo fis' ais, fis' %130
+    h, fis' cis fis d g e fis
+    h,-\tutti d fis h cis, e ais cis
+    ais, cis fis ais h, d fis h
+    g,\p h d g a, c fis a
+    fis, a d fis g, h d g %135
+    \mvTr e\f-\tutti g h e fis, a dis fis
+    dis, fis h dis e, g h e
+    c c, c' h a a, a' g
+    fis fis, fis' e dis fis h, \hA dis
+    e fis g gis a h c c, %140
+    h dis fis h g h dis,-\solo h'
+    e, h' fis h g c a h
+    g-\tuttiE e dis h e g, a c
+    h c h a g e' d! c'
+    h g fis d g h, c e %145
+    d e d c h g' fis e'
+    d h ais fis h d, e g
+    fis g fis e d cis h a!
+    gis h e d c h a g
+    fis a d fis, g h d fis %150
+    g\fz a b g es\fz f g \hA es
+    cis\fz g' b \hA cis, d fis a c
+    h d g, d' fis, d' d, d'
+    fis, d' a d g, d' h h,
+    c g' e c h g' d h %155
+    a a' fis fis, g g' d h
+    g4 r r2
+    r r8 h\f h' a
+    g e fis g a fis g a
+    h h, cis dis e gis h d %160
+    cis a h \hA cis d h \hA cis d
+    e e, fis gis a a, a' g
+    fis d e fis g e fis g
+    a a, h cis d fis a c
+    h g a h c a h c %165
+    d d, d' c h d h h,
+    c e a, c d fis h, d
+    e g c, e fis a d, fis
+    g h e, g c, a d d,
+    g4 r r8 g'-!-\solo d-! h-! %170
+    g4 r r2
+    r r4 h\p
+    c e g c
+    d d, g g,\f
+    h d-\tutti g g, %175
+    h d <g g,> r\fermata \bar "|." %176 finis
+  }
+}
+
+EtResurrexitBassFigures = \figuremode {
+  r8 \bo <[6]>4 \bc2. %90
+  r1
+  <6>4 q2.
+  q2 <6 4 3>
+  r4 <6> q4. q8
+  q4 \once \bassFigureExtendersOn q8 <7> r2 %95
+  r4 <6\\> <6> <_+>
+  <[6 5]>1
+  <6>1
+  q2 <[_+]>
+  <6\\ 4> <7 _+> %100
+  \bo <[6 5]>4 <7 _+>2 <6>4
+  r1
+  <_+>2 <6\\>
+  r2. \bc <[_+ _]>4
+  <_!>2 <5!> %105
+  <_-> <10 5->8 <8 6> <6 _-> <7! [_!]>
+  <_+>2 <6! 4>
+  <_+> <6! 4>
+  <_+>1
+  r %110
+  r2 \bo <[6\\ 5!]>
+  \bc <[_+ _]>1
+  r
+  <_!>2 <6\\>
+  <6>2.. \once \bassFigureExtendersOn q8 %115
+  <6 5>4 <_!> <6 5 _-> <_+>
+  \bo <[_+ _]> <6>2 <6\\>4
+  <6>2 <6 _!>
+  <6>4 q2.
+  q2 q %120
+  r4 q q2
+  r4 \bc <[6 _]>2.
+  <6>2 <_+>
+  <7 _+>1
+  r4 <7 _+> <5> <6> %125
+  r2 <_+>
+  <6>4 <6\\>2 <6>4
+  <\fivehat>4 \once \bassFigureExtendersOn q8 <7 [_+]> \bo <[5\+] _+>4.\once \bassFigureExtendersOn \bc q8
+  <\fivehat>2 <7 [5\+] _+>4 <5>8 <6\\>
+  <6 4>4 <5\+ _+>2 \bo <[6 _+]>4 %130
+  r <6\\> <6> <6\\>8 \bc <[5\+ _+]>
+  r2 <6\\>
+  \bo <[6 5 _+]>1
+  r2 <6 _!>
+  \bc <[6 5! _]>1 %135
+  r2 <6\\>
+  <[6 5]>1
+  r
+  <\fivehat>2 <6>
+  r4 q2 q4 %140
+  <_+>2 <6>4 \bo <[6]>
+  r <6\\> <6> q8 <_+>
+  \bc <[6]>4 <6>2 <8 6>8 <\t 3>
+  <_+>2 <6>4 <5>8 <\t>
+  <6>4 q2 <8 6>8 <\t 3> %145
+  <_+>2 <6>4 \bo <[5\+] _+>8 \bc <[\t] \t>
+  <6>4 <6 [_+]>2 <8 6\\>8 <\t 3>
+  <[5\+] _+>2 <6>
+  <6 5>4 <_+> <6[!]>8 <\t> <5 2> <\t \t>
+  <6 5!>1 %150
+  <_->4. \bassFigureExtendersOn q8 <5->2..
+  q8 <_+>4. q8 \bassFigureExtendersOff
+  <6>2 q
+  r4 <6 4 3>2.
+  r2 <6> %155
+  <6 4 3>1
+  r
+  r2 r8 <_+>4.
+  <6>2 <6 5 _!>
+  <7 _+> <_+>4. \once \bassFigureExtendersOn  q8 %160
+  <6>2 <6 5>
+  <7 _+> <_+>
+  <6> <6 5>
+  <7 _+> <_+>
+  <6> <6 5> %165
+  <7> <6>
+  <9>4 <3> <9> <3>
+  <9> <3> <9> <3>
+  <9> <3> <6 5> <_+>
+  r1 %170
+  r
+  r
+  r2. \bo <[6 _]>4
+  <6 4> \bc <[5 3]>2.
+  r4 <7> <3>2 %175
+  r4 <7> <3>2 %176 finis
+}
