@@ -186,3 +186,18 @@ EtResurrexitClarinoII = {
     r c c r\fermata \bar "|." %176 finis
   }
 }
+
+SanctusClarinoII = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 4/4 \tempoSanctus
+    \partial 8*5 r8 r2 R1*8 %8
+    \tempoPleni e4\f e8 e g4 g8 g \noBreak
+    d'4 r r2 %10
+    g,,8 r g r g r g r
+    g r r4 g4 r
+    R1*2
+    r8 g'4\f g8 e8. c'16 c4 %15
+    r d g, r\fermata \bar "|." %16 finis
+  }
+}

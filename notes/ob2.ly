@@ -400,3 +400,18 @@ EtResurrexitOboeII = {
     d a h r\fermata \bar "|." %176 finis
   }
 }
+
+SanctusOboeII = {
+  \relative c' {
+    \clef treble
+    \key g \major \time 4/4 \tempoSanctus
+    \partial 8*5 r8 r2 R1*8 %8
+    \tempoPleni c'2\f h \noBreak
+    a g %10
+    g2. b4
+    h a g r
+    R1*2
+    h2\f c %15
+    h8 h a4 g r\fermata \bar "|." %16 finis
+  }
+}

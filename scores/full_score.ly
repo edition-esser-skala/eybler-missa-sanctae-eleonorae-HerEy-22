@@ -323,90 +323,170 @@
   %     \midi { \tempo 4 = 70 }
   %   }
   % }
+  % \bookpart {
+  %   \subsection "Et resurrexit"
+  %   \addTocEntry
+  %   \score { %\articulate
+  %     <<
+  %       \new StaffGroup \with { \setGroupDistance #15 #15 } <<
+  %         \new Staff {
+  %           \set Staff.instrumentName = \markup \center-column { "ob" "1, 2" }
+  %           \set Staff.soloText = \markup \remark \medium "ob 1"
+  %           \set Staff.soloIIText = \markup \remark \medium "ob 2"
+  %           \partCombine #'(0 . 10) \EtResurrexitOboeI \EtResurrexitOboeII
+  %         }
+  %         \new Staff {
+  %           \set Staff.instrumentName = \markup \center-column { "fag" "1, 2" }
+  %           \set Staff.soloText = \markup \remark \medium "fag 1"
+  %           \set Staff.soloIIText = \markup \remark \medium "fag 2"
+  %           \partCombine #'(0 . 10) \EtResurrexitFagottoI \EtResurrexitFagottoII
+  %         }
+  %       >>
+  %       \new StaffGroup <<
+  %         \new Staff <<
+  %           \set Staff.instrumentName = \markup \center-column { \transposedNameShort "clno" "D" "" "1, 2" }
+  %           % \transpose c d
+  %           \partCombine #'(0 . 10) \EtResurrexitClarinoI \EtResurrexitClarinoII
+  %         >>
+  %       >>
+  %       \new Staff {
+  %         \set Staff.instrumentName = \transposedTimpShort "D" "" "A" ""
+  %         % \transpose c d
+  %         \EtResurrexitTimpani
+  %       }
+  %       \new StaffGroup <<
+  %         \new GrandStaff \with { \smallGroupDistance } <<
+  %           \set GrandStaff.instrumentName = "vl"
+  %           \new Staff {
+  %             \set Staff.instrumentName = "1"
+  %             \EtResurrexitViolinoI
+  %           }
+  %           \new Staff {
+  %             \set Staff.instrumentName = "2"
+  %             \EtResurrexitViolinoII
+  %           }
+  %         >>
+  %         \new Staff {
+  %           \set Staff.instrumentName = "vla"
+  %           \EtResurrexitViola
+  %         }
+  %       >>
+  %       \new ChoirStaff <<
+  %         \new Staff {
+  %           \set Staff.instrumentName = "S"
+  %           \new Voice = "Soprano" { \dynamicUp \EtResurrexitSoprano }
+  %         }
+  %         \new Lyrics \lyricsto Soprano \EtResurrexitSopranoLyrics
+
+  %         \new Staff {
+  %           \set Staff.instrumentName = \markup \center-column { "A" "trb 1" }
+  %           \new Voice = "Alto" { \dynamicUp \EtResurrexitAlto }
+  %         }
+  %         \new Lyrics \lyricsto Alto \EtResurrexitAltoLyrics
+
+  %         \new Staff {
+  %           \set Staff.instrumentName = \markup \center-column { "T" "trb 2" }
+  %           \new Voice = "Tenore" { \dynamicUp \EtResurrexitTenore }
+  %         }
+  %         \new Lyrics \lyricsto Tenore \EtResurrexitTenoreLyrics
+
+  %         \new Staff {
+  %           \set Staff.instrumentName = "B"
+  %           \new Voice = "Basso" { \dynamicUp \EtResurrexitBasso }
+  %         }
+  %         \new Lyrics \lyricsto Basso \EtResurrexitBassoLyrics
+  %       >>
+  %       \new StaffGroup <<
+  %         \new Staff {
+  %           \set Staff.instrumentName = \markup \center-column { "org" "vlc" "b" }
+  %           % \transpose c c,
+  %           \EtResurrexitOrgano
+  %         }
+  %       >>
+  %       \new FiguredBass { \EtResurrexitBassFigures }
+  %     >>
+  %     \layout { }
+  %     \midi { \tempo 4 = 110 }
+  %   }
+  % }
   \bookpart {
-    \subsection "Et resurrexit"
+    \section "4" "Sanctus"
     \addTocEntry
     \score { %\articulate
       <<
         \new StaffGroup \with { \setGroupDistance #15 #15 } <<
           \new Staff {
             \set Staff.instrumentName = \markup \center-column { "ob" "1, 2" }
-            \set Staff.soloText = \markup \remark \medium "ob 1"
-            \set Staff.soloIIText = \markup \remark \medium "ob 2"
-            \partCombine #'(0 . 10) \EtResurrexitOboeI \EtResurrexitOboeII
+            \partCombine #'(0 . 10) \SanctusOboeI \SanctusOboeII
           }
           \new Staff {
             \set Staff.instrumentName = \markup \center-column { "fag" "1, 2" }
-            \set Staff.soloText = \markup \remark \medium "fag 1"
-            \set Staff.soloIIText = \markup \remark \medium "fag 2"
-            \partCombine #'(0 . 10) \EtResurrexitFagottoI \EtResurrexitFagottoII
+            \partCombine #'(0 . 10) \SanctusFagottoI \SanctusFagottoII
           }
         >>
         \new StaffGroup <<
           \new Staff <<
-            \set Staff.instrumentName = \markup \center-column { \transposedNameShort "clno" "D" "" "1, 2" }
-            % \transpose c d
-            \partCombine #'(0 . 10) \EtResurrexitClarinoI \EtResurrexitClarinoII
+            \set Staff.instrumentName = \markup \center-column { \transposedNameShort "clno" "C" "" "1, 2" }
+            \partCombine #'(0 . 10) \SanctusClarinoI \SanctusClarinoII
           >>
         >>
         \new Staff {
-          \set Staff.instrumentName = \transposedTimpShort "D" "" "A" ""
-          % \transpose c d
-          \EtResurrexitTimpani
+          \set Staff.instrumentName = \transposedTimpShort "D" "" "G" ""
+          \SanctusTimpani
         }
         \new StaffGroup <<
           \new GrandStaff \with { \smallGroupDistance } <<
             \set GrandStaff.instrumentName = "vl"
             \new Staff {
               \set Staff.instrumentName = "1"
-              \EtResurrexitViolinoI
+              \SanctusViolinoI
             }
             \new Staff {
               \set Staff.instrumentName = "2"
-              \EtResurrexitViolinoII
+              \SanctusViolinoII
             }
           >>
           \new Staff {
             \set Staff.instrumentName = "vla"
-            \EtResurrexitViola
+            \SanctusViola
           }
         >>
         \new ChoirStaff <<
           \new Staff {
             \set Staff.instrumentName = "S"
-            \new Voice = "Soprano" { \dynamicUp \EtResurrexitSoprano }
+            \new Voice = "Soprano" { \dynamicUp \SanctusSoprano }
           }
-          \new Lyrics \lyricsto Soprano \EtResurrexitSopranoLyrics
+          \new Lyrics \lyricsto Soprano \SanctusSopranoLyrics
 
           \new Staff {
             \set Staff.instrumentName = \markup \center-column { "A" "trb 1" }
-            \new Voice = "Alto" { \dynamicUp \EtResurrexitAlto }
+            \new Voice = "Alto" { \dynamicUp \SanctusAlto }
           }
-          \new Lyrics \lyricsto Alto \EtResurrexitAltoLyrics
+          \new Lyrics \lyricsto Alto \SanctusAltoLyrics
 
           \new Staff {
             \set Staff.instrumentName = \markup \center-column { "T" "trb 2" }
-            \new Voice = "Tenore" { \dynamicUp \EtResurrexitTenore }
+            \new Voice = "Tenore" { \dynamicUp \SanctusTenore }
           }
-          \new Lyrics \lyricsto Tenore \EtResurrexitTenoreLyrics
+          \new Lyrics \lyricsto Tenore \SanctusTenoreLyrics
 
           \new Staff {
             \set Staff.instrumentName = "B"
-            \new Voice = "Basso" { \dynamicUp \EtResurrexitBasso }
+            \new Voice = "Basso" { \dynamicUp \SanctusBasso }
           }
-          \new Lyrics \lyricsto Basso \EtResurrexitBassoLyrics
+          \new Lyrics \lyricsto Basso \SanctusBassoLyrics
         >>
         \new StaffGroup <<
           \new Staff {
             \set Staff.instrumentName = \markup \center-column { "org" "vlc" "b" }
             % \transpose c c,
-            \EtResurrexitOrgano
+            \SanctusOrgano
           }
         >>
-        \new FiguredBass { \EtResurrexitBassFigures }
+        \new FiguredBass { \SanctusBassFigures }
       >>
       \layout { }
-      \midi { \tempo 4 = 110 }
+      \midi { \tempo 4 = 60 } % 75
     }
   }
 }

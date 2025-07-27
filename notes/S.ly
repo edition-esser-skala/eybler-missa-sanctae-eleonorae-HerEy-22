@@ -885,15 +885,51 @@ EtResurrexitSopranoLyrics = \lyricmode {
   a -- men. %176 finis
 }
 
+SanctusSoprano = {
+  \relative c' {
+    \clef treble
+    \key g \major \time 4/4 \autoBeamOff \tempoSanctus
+    \partial 8*5 r8 r2
+      \mvTrr e2\pp^\tuttiE e4 r
+    fis2 fis4 d'~
+    d e, r c'~
+    c d, r h'~
+    h a8 g fis4 d' %5
+    r e2 d8 c
+    h4 a g4. g8 \noBreak
+    fis4 r r2
+    \tempoPleni e'4\f c8 e d4 h8 g' \noBreak
+    fis([ a)] d, c h d r4 %10
+    a h8 h c4 cis8 cis
+    d2 g,4 r8 d'\p
+    d8. h16 c([ d)] e([ fis)] g8.([ d16)] d8 h
+    d16([ c)] a8 r a e'16([ d)] h8 r h\f
+    h8. c16 d([ e)] fis([ g)] g8.([ e16)] e4 %15
+    d8 h a4 g r\fermata \bar "|." %16 finis
+  }
+}
+
+SanctusSopranoLyrics = \lyricmode {
+  San -- ctus,
+  san -- ctus, san --
+  ctus, san --
+  ctus Do --
+  mi -- nus De -- us, %5
+  Do -- mi -- nus
+  De -- us Sa -- ba --
+  oth.
+  Ple -- ni sunt coe -- li, sunt
+  coe -- li et ter -- ra %10
+  glo -- ri -- a, glo -- ri -- a
+  tu -- a. O --
+  san -- na in ex -- cel -- sis, o --
+  san -- na, o -- san -- na, o --
+  san -- na in ex -- cel -- sis, %15
+  in ex -- cel -- sis. %16 finis
+}
 
 
 
-% San -- ctus Do -- mi -- nus De -- us Sa -- ba -- oth.
-% Ple -- ni sunt coe -- li et ter -- ra glo -- ri -- a tu -- a.
-% O -- san -- na in ex -- cel -- sis.
-
-
-% ## Benedictus
 
 % Be -- ne -- di -- ctus, qui ve -- nit in no -- mi -- ne Do -- mi -- ni.
 % O -- san -- na in ex -- cel -- sis.

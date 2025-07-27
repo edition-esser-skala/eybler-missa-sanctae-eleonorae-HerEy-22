@@ -417,3 +417,23 @@ EtResurrexitFagottoII = {
     d d, g r\fermata \bar "|." %176 finis
   }
 }
+
+SanctusFagottoII = {
+  \relative c {
+    \clef bass
+    \key g \major \time 4/4 \tempoSanctus
+    \partial 8*5 r8 r2 R1*2
+    gis'2\pE a4 r
+    fis2 g4 r
+    e2 fis %5
+    g a4 r
+    R1*2
+    \tempoPleni c2\f h \noBreak
+    a g %10
+    c,4 d e es
+    d d, g r
+    R1*2
+    g'2\f c %15
+    h8 g d4 g, r\fermata \bar "|." %16 finis
+  }
+}

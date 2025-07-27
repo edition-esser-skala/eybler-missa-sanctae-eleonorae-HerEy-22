@@ -12,6 +12,9 @@ tempoGloria = \tempoMarkup "Allegro moderato"
 tempoCredo = \tempoMarkup "Allegro moderato"
   tempoEtIncarnatus = \tempoMarkup "Andante sostenuto"
   tempoEtResurrexit = \tempoMarkup "Allegro con spirito"
+tempoSanctus = \tempoMarkup "Adagio"
+  tempoPleni = \tempo 4 = 75
+  % tempoPleni = \tempoMarkup "Allegro moderato"
 
 \include "notes/ob1.ly"
 \include "notes/ob2.ly"

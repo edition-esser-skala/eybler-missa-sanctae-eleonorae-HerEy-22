@@ -922,3 +922,46 @@ EtResurrexitAltoLyrics = \lyricmode {
   a -- men, %175
   a -- men. %176 finis
 }
+
+SanctusAlto = {
+  \relative c' {
+    \clef treble
+    \key g \major \time 4/4 \autoBeamOff \tempoSanctus
+    \partial 8*5 r8 r2
+      \mvTrr h2\pp^\tuttiE c4 r
+    cis2 d4 r
+    gis2 a4 r
+    fis2 g4 r
+    r2 r4 d'~ %5
+    d c8 h a4 fis
+    d8([ e)] fis([ a,)] h4 a \noBreak
+    a r r2
+    \tempoPleni g'4\f g8 g g4 g8 d \noBreak
+    d([ fis)] fis a g g r4 %10
+    g g8 g g4 g8 g
+    g4( fis) g r8 h\p
+    h8. g16 a([ h)] c([ a)] h4 h8 g
+    h16([ a)] fis8 r fis c'16([ h)] g8 r g\f
+    g8. a16 h([ c)] a([ h)] c4 g %15
+    g16([ a)] h([ c)] d4 h r\fermata \bar "|." %16 finis
+  }
+}
+
+SanctusAltoLyrics = \lyricmode {
+  San -- ctus,
+  san -- ctus,
+  san -- ctus,
+  san -- ctus
+  Do -- %5
+  mi -- nus De -- us,
+  De -- us __ Sa -- ba --
+  oth.
+  Ple -- ni sunt coe -- li, sunt
+  coe -- li et ter -- ra %10
+  glo -- ri -- a, glo -- ri -- a
+  tu -- a. O --
+  san -- na in ex -- cel -- sis, o --
+  san -- na, o -- san -- na, o --
+  san -- na in ex -- cel -- sis, %15
+  in ex -- cel -- sis. %16 finis
+}

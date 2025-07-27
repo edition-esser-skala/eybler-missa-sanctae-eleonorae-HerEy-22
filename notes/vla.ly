@@ -527,3 +527,27 @@ EtResurrexitViola = {
     d, d' d d a c c c h4 r\fermata \bar "|." %176 finis
   }
 }
+
+SanctusViola = {
+  \relative c' {
+    \clef alto
+    \key g \major \time 4/4 \tempoSanctus
+    \partial 8*5 g8(\pp a h c d)
+      e4 r8 e,( c' h a g)
+    fis4 r8 fis( d' cis h a)
+    gis( h e d c h a g)
+    fis( a d c h a g fis)
+    e( e' c a) fis( fis' d h) %5
+    g( g' e c) a( a' fis c)
+    h( cis d a) h4 g \noBreak
+    fis8 r r a4( g8 fis f)
+    \tempoPleni e16(\f f32 g a h c d) e16. g,32 g16. g32 h16( c32 d e fis! g a) h16. h,32 h16. h32 \noBreak
+    fis16( g32 a h c d e) fis16. fis,32 fis16. a'32 h16( a32 g fis e d c) h16. d32 d16. d32 %10
+    e16. e32 e16. e32 d16. d32 d16. d32 g16. g32 g16. g32 b16. b32 b16. b32
+    h16. d32 h16. g32 a8 <c d,> <h d,> g\p g g
+    g g g g g g, r g
+    r << { a a a } \\ { fis fis fis } >> r << { h h h } \\ { g g g } >>
+    << { h8. c16 d e fis g e8 g4 e8 } \\ { g,8.\f a16 h c a h c8 e4 c8 } >> %15
+    << { d8 } \\ { h } >> r << { <fis' a,> } \\ { <c d,> } >> r << { <g' g,>4 } \\ { <h, d,> } >> r\fermata \bar "|." %16 finis
+  }
+}

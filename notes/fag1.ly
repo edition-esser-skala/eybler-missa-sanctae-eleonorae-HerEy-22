@@ -427,3 +427,23 @@ EtResurrexitFagottoI = {
     d \once \partCombineChords c h r\fermata \bar "|." %176 finis
   }
 }
+
+SanctusFagottoI = {
+  \relative c {
+    \clef bass
+    \key g \major \time 4/4 \tempoSanctus
+    \partial 8*5 r8 r2 R1*2
+    h'2\pE c4 r
+    a2 h4 r
+    e2 fis %5
+    g4 e8 c \pao a4 r
+    R1*2
+    \tempoPleni e'2\f d \noBreak
+    c h %10
+    e4 d c cis
+    d4. c8 h4 r
+    R1*2
+    d2\f e %15
+    d8 d d8. c16 h4 r\fermata \bar "|." %16 finis
+  }
+}

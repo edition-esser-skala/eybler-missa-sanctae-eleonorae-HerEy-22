@@ -377,3 +377,19 @@ EtResurrexitTromboneI = {
     r c h r\fermata \bar "|." %176 finis
   }
 }
+
+SanctusTromboneI = {
+  \relative c' {
+    \clef alto
+    \key g \major \time 4/4 \tempoSanctus
+    \partial 8*5 r8 r2 R1*8 %8
+    \tempoPleni g'4\f g8 g g4 g8 d \noBreak
+    d fis fis a g g r4 %10
+    g g8 g g4 g8 g
+    g4 fis g r
+    R1
+    r2 r4 r8 g\f
+    g8. a16 h c a h c4 g %15
+    g16 a h c d4 h r\fermata \bar "|." %16 finis
+  }
+}

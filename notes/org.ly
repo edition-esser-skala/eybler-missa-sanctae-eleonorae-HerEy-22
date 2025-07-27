@@ -1016,3 +1016,46 @@ EtResurrexitBassFigures = \figuremode {
   r4 <7> <3>2 %175
   r4 <7> <3>2 %176 finis
 }
+
+SanctusOrgano = {
+  \relative c {
+    \clef bass
+    \key g \major \time 4/4 \tempoSanctus
+    \partial 8*5 \mvTrr g8(\pp-\senzaOrg a h c d)
+      e4 r8 e( c' h a g)
+    fis4 r8 fis( h, d fis h)
+    e,( d c! h) a( c e a)
+    d,( c h a) g( a h g)
+    c( gis a c) d( ais h d) %5
+    e( h c e) fis( cis d fis)
+    g g, fis fis' e4 a, \noBreak
+    d8 r d'( cis c h a g)
+    \tempoPleni \mvTr c,16(\f-\tutti d32 e f g a h) c16. c,32 c16. c32 g16( a32 h c d e fis) g16. g,32 g16. g32 \noBreak
+    d'16( e32 fis g a h c) d16. d,32 d16. d32 g16( fis32 e d c h a) g16. g'32 g16. g32 %10
+    c16. c,32 c16. c32 d16. d'32 d16. d32 e16. e,32 e16. e32 es16. es'32 es16. es32
+    d16. d32 h16. g32 d8 d' g, \clef "treble_8" \mvTr g'[\p-\solo g g]
+    g g g g g g, r4
+    \clef bass d-\pizz r g, r
+    \mvTr g8\f-\tutti-\arco g' g g c, c' c c %15
+    d r d, r g4 r\fermata \bar "|." %16 finis
+  }
+}
+
+SanctusBassFigures = \figuremode {
+  r8*5 r1
+  r
+  r
+  r
+  r %5
+  r
+  r
+  r
+  r
+  <7> %10
+  <6 5>4 <6 4> <6> <6\\ 5->
+  \bo <[6! 4]> <5 3>2.
+  r4 <7 4> \bc <[8 3]>2
+  r1
+  r %15
+  <6 4>4 <7 [5]>2. %16 finis
+}

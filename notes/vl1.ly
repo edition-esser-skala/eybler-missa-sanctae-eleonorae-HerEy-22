@@ -526,3 +526,27 @@ EtResurrexitViolinoI = {
     d, d' d d d fis, fis fis g4 r\fermata \bar "|." %176 finis
   }
 }
+
+SanctusViolinoI = {
+  \relative c' {
+    \clef treble
+    \key g \major \time 4/4 \tempoSanctus
+    \partial 8*5 g8(\pp a h c d)
+      e4 r8 e( c' h a g)
+    fis4 r8 fis( d' cis h a)
+    gis( h e d c h a g)
+    fis( a d c h a g fis)
+    e( e' c a) fis( fis' d h) %5
+    g( g' e c) a( a' fis c)
+    h( cis d a) g( e h cis) \noBreak
+    d( e fis g a h c d)
+    \tempoPleni e16(\f d32 c h a g f) e16. e'32 e16. e32 d16( c32 h a g fis e) d16. d'32 d16. d32 \noBreak
+    c16( h32 a g fis e d) c16. c'32 c16. c32 h16( c32 d e fis g a) h16. h,32 h16. h32 %10
+    a16. g'32 g16. g32 g16. h,32 h16. h32 c16. g'32 g16. g32 g16. cis,32 cis16. cis32
+    d16. d32 g16. h32 d8 fis, g d16(\p h) d( h d h)
+    d( h d h) c( d e c) h( g' h g) d( h g h)
+    d( c a fis) d( fis a c) e( d h g) d( g h, d)
+    g(\f a h c) d( e fis g) e( c g c) e( c g' e) %15
+    d8r <fis a, d,> r <g h, d,>4 r\fermata \bar "|." %16 finis
+  }
+}

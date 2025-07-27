@@ -904,3 +904,46 @@ EtResurrexitBassoLyrics = \lyricmode {
   a -- men, %175
   a -- men. %176 finis
 }
+
+SanctusBasso = {
+  \relative c {
+    \clef bass
+    \key g \major \time 4/4 \autoBeamOff \tempoSanctus
+    \partial 8*5 r8 r2
+      \mvTrr e2\pp^\tuttiE a,4 r
+    fis'2 h,4 r
+    r e2 a4
+    r d,2 g4
+    e2( fis4) fis8 fis %5
+    g4 g a d,8 d
+    g4 fis e4. e8 \noBreak
+    d4 r r2
+    \tempoPleni c4\f c8 c g'4 g8 g \noBreak
+    d'4 d,8 d g g, r4 %10
+    c d8 d e4 es8 es
+    d2 g4 r
+    R1
+    r8 d\p d16([ a')] a8 r g g16([ h)] h8
+    r g4\f g8 c,4 c' %15
+    h8 g d'4 g, r\fermata \bar "|." %16 finis
+  }
+}
+
+SanctusBassoLyrics = \lyricmode {
+  San -- ctus,
+  san -- ctus,
+  san -- ctus,
+  san -- ctus,
+  Do -- mi -- nus %5
+  De -- us, Do -- mi -- nus
+  De -- us Sa -- ba --
+  oth.
+  Ple -- ni sunt coe -- li, sunt
+  coe -- li et ter -- ra %10
+  glo -- ri -- a, glo -- ri -- a
+  tu -- a.
+
+  O -- san -- na, o -- san -- na
+  in ex -- cel -- sis, %15
+  in ex -- cel -- sis. %16 finis
+}

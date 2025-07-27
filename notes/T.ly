@@ -936,3 +936,46 @@ EtResurrexitTenoreLyrics = \lyricmode {
   a -- men, %175
   a -- men. %176 finis
 }
+
+SanctusTenore = {
+  \relative c' {
+    \clef "treble_8"
+    \key g \major \time 4/4 \autoBeamOff \tempoSanctus
+    \partial 8*5 r8 r2
+      \mvTrr gis2\pp^\tuttiE a4 r
+    ais2 h4 r
+    h2 c!4 r
+    a!2 h4 r
+    r c2 h8 a %5
+    g4 e' a, a8 a
+    h cis d2( \hA cis8) cis \noBreak
+    d4 r r2
+    \tempoPleni c4\f e8 c h4 d8 h \noBreak
+    a4 d8 d d h r4 %10
+    e d8 d c4 g8 g
+    h!4( a) g r
+    R1
+    r8 a\p a16([ c)] c8 r h h16([ d)] d8
+    r d4\f d8 e8.([ g16)] g4 %15
+    d8 d fis4 g r\fermata \bar "|." %16 finis
+  }
+}
+
+SanctusTenoreLyrics = \lyricmode {
+  San -- ctus,
+  san -- ctus,
+  san -- ctus,
+  san -- ctus,
+  Do -- mi -- nus %5
+  De -- us, Do -- mi -- nus
+  De -- us Sa -- ba --
+  oth.
+  Ple -- ni sunt coe -- li, sunt
+  coe -- li et ter -- ra %10
+  glo -- ri -- a, glo -- ri -- a
+  tu -- a.
+
+  O -- san -- na, o -- san -- na
+  in ex -- cel -- sis, %15
+  in ex -- cel -- sis. %16 finis
+}
