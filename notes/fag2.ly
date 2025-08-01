@@ -437,3 +437,134 @@ SanctusFagottoII = {
     h8 g d4 g, r\fermata \bar "|." %16 finis
   }
 }
+
+BenedictusFagottoII = {
+  \relative c {
+    \clef "treble_8"
+    \twofourtime \key b \major \time 2/4 \tempoBenedictus
+    R2*2
+    r4 r8 c'\pE
+    b( a c f,)
+    r b( d f,) %5
+    r c'( a c)
+    es4~\fz es16( d) d( c)
+    b8 as\fz g c16( es)
+    d( f) b,( d) d( c) b-! f-!
+    f4( b,8) r %10
+    R2*23 %33
+    r8 c\p c r
+    r f f r %35
+    r f4 f8
+    b b,4\fp b'8
+    c r \once \partCombineChords c, r
+    f4\f g8 a
+    b8 r r8. b16 %40
+    b( a) g-! f-! a( g) f-! e-!
+    g4( f8) r
+    R2*8 %50
+    r8 f\p f r
+    R2
+    r8 f f r
+    f r f r
+    f r r4 %55
+    R2*31 %86
+    \clef bass b,8\p b' b b
+    b b, r4
+    r8 f' f r
+    r b b r %90
+    r b,4\f b8
+    es es,4\fz es'8
+    f r f r
+    b,4 c8 d
+    es r r8. es'16 %95
+    es( d) c-! b-! d( c) b-! a-!
+    b8 r r4
+    r8 b( a c)
+    c4( b8) r\fermata \bar "|." %99 finis
+  }
+}
+
+AgnusFagottoII = {
+  \relative c {
+    \clef bass
+    \key g \minor \time 3/4 \tempoAgnus
+    \clef "treble_8" R2.*5 %5
+    \clef bass r4 a'\mf a
+    fis2 r4
+    r b\cresc b
+    b2\! r4
+    R2.*2 %11
+    g2.~\f
+    g4 fis r
+    R2.
+    \clef "treble_8" r4 b2~\fz %15
+    b4\p a es'
+    d!8 r r4 r
+    R2.*11 %28
+    r4 g,\mf g
+    g2 r4 %30
+    r as as
+    as2 r4
+    R2.*2
+    \clef bass f2.~\f %35
+    f4 e r
+    R2.
+    \clef "treble_8" r4 as2~\fz
+    as4\p g des'
+    c!8 r r4 r %40
+    R2.*15 \bar "||" %55
+    \clef bass \key g \major \time 6/8 \tempoDona \newSpacingSection
+      R2.*5 %60
+    r4 r8 g4\fE d8
+    g, g' a g4 fis8
+    e fis g a a, a'
+    a4 a8 a4 a8
+    a cis, d a' a, a %65
+    a r r r4 r8
+    \clef "treble_8" a'4. cis8 r r
+    \clef bass r a, a a r r
+    \clef "treble_8" a'4. d8 r r
+    \clef bass r a, a a r r %70
+    \clef "treble_8" cis'4. e8 r r
+    \clef bass d,4 cis8 h h' a
+    g4. a8 r r
+    h4 g8 a4 g8
+    fis4 e8 r d cis %75
+    h r r r4 r8
+    R2.*2
+    r8 fis'\pE a d r r
+    r fis, a d r r %80
+    r d a fis4\cresc a8
+    d,4.~\f d8 e fis
+    g r r r4 r8
+    R2.*4 %87
+    r4 r8 g e h
+    c4\f d8 c4 h8
+    a h c d4 d8 %90
+    d4 d8 d4 d8
+    d fis g d d d
+    d r r r4 r8
+    d4. fis8 r r
+    r d d d r r %95
+    d4. g8 r r
+    r d d d r r
+    d4.~ d4 c8
+    h4 h8 h4 h8
+    c4.~ c8 r r %100
+    d4. e
+    fis g8 g fis
+    e r r r4 r8
+    R2.*2 %105
+    r4 r8 r g\pE g
+    g r r r g g
+    g\cresc r r r g h
+    \clef "treble_8" e4\f c8 h4 g8
+    e'4 c8 h4 g8 %110
+    \clef bass c,4. d
+    e c
+    d d,
+    g8 r r r4 r8
+    R2.*5 %119
+    R2.\fermata \bar "|." %120 finis
+  }
+}

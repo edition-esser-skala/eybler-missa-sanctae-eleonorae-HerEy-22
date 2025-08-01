@@ -415,3 +415,117 @@ SanctusOboeII = {
     h8 h a4 g r\fermata \bar "|." %16 finis
   }
 }
+
+BenedictusOboeII = {
+  \relative c' {
+    \clef treble
+    \twofourtime \key b \major \time 2/4 \tempoBenedictus
+    R2*3
+    r4 r8 c(\p
+    es d) r d( %5
+    f es) r \once \slurDashed a16( c)
+    es4~\fz es16( d) d( c)
+    b8 r r4
+    R2*25 %33
+    r8 e,\p e r
+    r f f r %35
+    r a4 a8
+    b d4\fp b8
+    a r b r
+    a4\f b8 a
+    f r r4 %40
+    R2*10 %50
+    r8 a-!\p c-! r
+    R2
+    r8 b-! d-! r
+    a r b r
+    a r r4 %55
+    R2*33 %88
+    r8 a\p a r
+    r b[ b] d\f %90
+    d4 c16( b c d)
+    es16(\< g) g8~\> g16 a32 g f16[ es]
+    d8\! r c r
+    b4 es8 d
+    b r r4 %95
+    R2
+    r8 b(\p a c)
+    R2
+    R\fermata \bar "|." %99 finis
+  }
+}
+
+AgnusOboeII = {
+  \relative c' {
+    \clef treble
+    \key g \minor \time 3/4 \tempoAgnus
+    R2.*5 %5
+    r4 fis\mf fis
+    a2 r4
+    r g\cresc g\!
+    g2\! r4
+    R2.*2 %11
+    b2\f g4~
+    g fis r
+    R2.*15 %28
+    r4 e\mf e
+    e2 r4 %30
+    r f f
+    f2 r4
+    R2.*2
+    as2\f f4~ %35
+    f e r
+    R2.*19 \bar "||" %55
+    \key g \major \time 6/8 \tempoDona \newSpacingSection
+      R2.*5 %60
+    r4 r8 d4\fE fis8
+    g4 fis8 h g a
+    h a g fis4 e8
+    g4 fis8 d'4 cis8
+    e4 d8 cis r r %65
+    R2.
+    e4. cis8 r r
+    R2.
+    fis4. d8 r r
+    R2. %70
+    e4. cis8 r r
+    a4 ais8 h4 c8
+    h4. g8 r r
+    fis4 h8 a4 a8
+    a4 g8 r fis fis %75
+    fis r r r4 r8
+    R2.*3
+    r8 d\pE fis a r r %80
+    r d, fis a4\cresc fis8
+    c'!4\f a8 fis g a
+    d, r r r4 r8
+    R2.*4 %87
+    r4 r8 g4 d'8
+    c4\f f,8 e4 gis8
+    a e e d4. %90
+    fis4 g8 g4 fis8
+    a4 g8 fis r r
+    R2.
+    c'4. a8 r r
+    R2. %95
+    d4. h8 r r
+    R2.
+    fis'4. a,
+    g4 g8 g h d
+    e4. c8 r r %100
+    fis,4. g
+    a g8 h[ a]
+    g r r r4 r8
+    R2.*3 %106
+    r4 r8 r d\pE g
+    h\cresc r r r g h
+    e4\f c8 h4 d8
+    e4 c8 h4 d8 %110
+    c4 h8 a d c
+    h a g e' d c
+    h d g, a4 fis8
+    g r r r4 r8
+    R2.*5 %119
+    R2.\fermata \bar "|." %120 finis
+  }
+}

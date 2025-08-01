@@ -447,3 +447,164 @@ SanctusFagottoI = {
     d8 d d8. c16 h4 r\fermata \bar "|." %16 finis
   }
 }
+
+BenedictusFagottoI = {
+  \relative c {
+    \clef "treble_8"
+    \twofourtime \key b \major \time 2/4 \tempoBenedictus
+    d'4\pE c16( a b f)
+    es'4 d16( b c f,)
+    f'4 d16( b g es')
+    d8( c es a,)
+    r d( f b,) %5
+    r es( c es)
+    g4~\fz g16( f) f( es)
+    \pa d8 f~\fz f16 es( g, c)
+    b( d) d( f) f( es) d-! c-! \pd
+    c4( b8) r %10
+    R2*21 %31
+    f8\p f' f f
+    f f, r4
+    r8 c' c r
+    r c c r %35
+    r c4 c8
+    d b4\fp d8
+    f r g r
+    f4\f e8 f
+    d r r8. d16 %40
+    d( c) b-! a-! c( b) a-! g-!
+    b4( a8) r
+    R2*8 %50
+    r8 f'\p f r
+    R2
+    r8 f f r
+    f r f r
+    f r r4 %55
+    f2~\p f16\< fis( a g\> f es d c)
+    b8\! r r4
+    R2*30 %88
+    r8 f'\p f r
+    r f f r %90
+    r b,4\f b8
+    es es,4\fz es'8
+    f r es r
+    d4 c8 b
+    es r r8. g16 %95
+    g( f) es-! d-! f( es) d-! c-!
+    \pao b8 r r4
+    r8 d(\p c es)
+    es4( d8) r\fermata \bar "|." %99 finis
+  }
+}
+
+AgnusFagottoI = {
+  \relative c {
+    \clef "treble_8"
+    \key g \minor \time 3/4 \tempoAgnus
+    r4 r es'~\p
+    es d8( c b a)
+    % b8. c16 d4 r % for MIDI
+    \after 8 \turn b8. c16 d4 r
+    R2.*2 %5
+    \clef bass r4 c\mf c
+    c( es) r
+    r d\cresc d
+    d2\! r4
+    R2.*2 %11
+    b2.~\f
+    b4 a r
+    R2.
+    \clef "treble_8" r4 des2\fz %15
+    c2.\p
+    b8 \noBeam d!(\< f4)\! es16( d c b)
+    a8-! \noBeam es'(\< g4)\! f16( es d c)
+    h8-! \noBeam f'(\< as4)\! g16( f es d)
+    d( c d es) \afterGrace b4 { c32[ b a b] } d8( c) %20
+    b4 r r
+    R2.*2
+    r4 r des~\pE
+    des c8( b as g) %25
+    as8. b16 c4 r
+    R2.*2
+    r4 b\mf b
+    \once \slurDashed b( des) r %30
+    r c c
+    c2 r4
+    R2.*2
+    \clef bass as2.~\f %35
+    as4 g r
+    R2.
+    \clef "treble_8" r4 ces2\fz
+    b2.\p
+    as8 \noBeam c!(\< es4)\! des16( c b as) %40
+    g8-! \noBeam des'(\< f4)\! es16( des c b)
+    a8-! \noBeam es'(\< ges4)\! f16( es des c)
+    % \once \slurDashed c( b c des) as4 c8( b) % for MIDI
+    \once \slurDashed c( b c des) \after 8 \turn as4 c8( b)
+    as4 r r
+    R2.*3 %47
+    r4 es'8.(\fz c16 a!8) r
+    r4 d8.(\fz b16 g8) r
+    R2.*6 \bar "||" %55
+    \clef bass \key g \major \time 6/8 \tempoDona \newSpacingSection
+      R2.*5 %60
+    r4 r8 h4\fE a8
+    g h dis \pa e h a \pd
+    g a h \pa a4 a8 \pd
+    cis4 d8 \pa a4 a8
+    a4 a8 a a a \pd %65
+    a r r r4 r8
+    \clef "treble_8" cis4. e8 r r
+    \clef bass r a, a a r r
+    \clef "treble_8" d4. fis8 r r
+    \clef bass r a, a a r r %70
+    \clef "treble_8" e'4. g8 r r
+    \clef bass d4 e8 \pa d4 dis8 \pd
+    e4. cis8 r r
+    d!4 h8 \pa cis d e \pd
+    a,4 cis8 r d ais %75
+    h r r r4 r8
+    R2.*2
+    r8 a\pE d fis r r
+    r a, d fis r r %80
+    r fis d a4\cresc c!8
+    a4.\f c
+    h8 r r r4 r8
+    R2.
+    \clef "treble_8" \grace { h16[ c] } d8(\pE c16 h a g) g8. a16 fis8 %85
+    \grace { c'16[ d] } e8( d16 c h a) c8. d16 h8
+    R2.
+    r4 r8 \clef bass h8 c d
+    g,4\f h8 c4 d8
+    \partCombineChords e d c \pd h4 a8 %90
+    c4 h8 d4 d8
+    \pa d4 d8 \pd d d d
+    d r r r4 r8
+    fis,4. a8 r r
+    r d d d r r %95
+    g,4. h8 r r
+    r d d d r r
+    a4. d
+    d4 d8 d4 h8
+    \pa g4 c8 e c a %100
+    c4 h8 g c h
+    a d d d4 dis8 \pd
+    e r r r4 r8
+    R2.*2 %105
+    r4 r8 r h\pE h
+    d r r r h h
+    h\cresc r r r h d
+    \clef "treble_8" g4\f e8 d4 h8
+    g'4 e8 d4 h8 %110
+    \clef bass g c c c h a
+    g a h c d e
+    g, h d fis, a c
+    h r r r4 r8
+    R2. %115
+    r8 d(\pE h) g( a h)
+    d( c a) \grace g16 fis8( e fis)
+    g4. h
+    g4\pp r8 g4 r8
+    g4 r8 r4 r8\fermata \bar "|." %120 finis
+  }
+}

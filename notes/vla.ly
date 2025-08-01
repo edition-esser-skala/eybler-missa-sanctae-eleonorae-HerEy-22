@@ -551,3 +551,238 @@ SanctusViola = {
     << { d8 } \\ { h } >> r << { <fis' a,> } \\ { <c d,> } >> r << { <g' g,>4 } \\ { <h, d,> } >> r\fermata \bar "|." %16 finis
   }
 }
+
+BenedictusViola = {
+  \relative c' {
+    \clef alto
+    \twofourtime \key b \major \time 2/4 \tempoBenedictus
+    r8 f,\mf f f
+    r f f f
+    r f g g
+    f << { a a a } \\ { f f f } >>
+    r << { b b b } \\ { f f f } >> %5
+    r << { c' c c } \\ { f, f f } >>
+    es'4~\fz es16( d) d( c)
+    b8 \after 8 \! b4\> g'8
+    f8 f,~ f16 a b es
+    es4( d8) r %10
+    R2
+    r8 << { f,[^\pizz f] } \\ { d[\p d] } >> r
+    r f f r
+    r f f r
+    r f f f %15
+    r f f r
+    r f f r
+    e r r4
+    r8 f r f
+    r f f r %20
+    g r r4
+    f8 r r4
+    r8 f r f
+    r f f r
+    f r r4 %25
+    c'8 r r4
+    c8 r r4
+    R2*2
+    r8 f,\cresc a c %30
+    c\f r r4
+    R2*7 %38
+    a'4\f^\arco g16( e f cis)
+    d( a b fis) g( cis, d) r %40
+    r8 c~ c16 e f g
+    g4( f8) r
+    R2*4 %46
+    r8 f\p^\pizz f f
+    f r r4
+    f8 r r4
+    R2*5 %54
+    r8 a'(\p^\arco b) b, %55
+    f' r r f,
+    f r r4
+    R2
+    r8 << { f[^\pizz f] } \\ { d[ d] } >> r
+    r f f r %60
+    r f f r
+    R2
+    r8 f(^\arco_\critnote fis g)
+    es r r4
+    r8 f\p^\pizz f f %65
+    r f r as
+    r g r g
+    r f r f
+    r f f g
+    r f f r %70
+    f r r4
+    f8 r r4
+    r8 f f g
+    r f f r
+    e r r4 %75
+    f8 r f r
+    f r r4
+    f8 r r4
+    f8 r r4
+    R2*5 %84
+    r8 b\cresc d f %85
+    f,\f r r4
+    R2*7 %93
+    d''4\f^\arco c16( a b fis)
+    g( d es h) c( fis, g) r %95
+    r8 f~ f16 a b es
+    d8 b16([\p d)] a([ c)] es8
+    d << {
+      \slurDashed b16( d) a( c es c)
+      a4( b8) \slurSolid
+    } \\ {
+      \slurDashed b16( d) a([ c)] f,8 \slurSolid
+      f4.
+    } >> r8\fermata \bar "|." %99 finis
+  }
+}
+
+AgnusViola = {
+  \relative c' {
+    \clef alto
+    \key g \minor \time 3/4 \tempoAgnus
+    r4^\conSord r b\p
+    a2 r4
+    r g( g')
+    fis2 r4
+    r b,( d) %5
+    es r r
+    r a,(\cresc es'
+    d) r r
+    r r8 d(\> c b)\!
+    r4 r8 es(\> d c)\! %10
+    a(\> a' g)\! d([\f b g)]
+    es-! b'-! d,-! b'-! cis,-! b'-!
+    << { b4 a } \\ { g fis } >> r
+    r8 b\p b b h h
+    c c des^\espressivo des b b %15
+    b\pp b a! a es' es
+    d r r f, f f
+    es4 r8 es es es
+    d4 r8 f f f
+    g g f f f f %20
+    f r r4 e
+    f8( g as f b des)
+    c( h c e,\cresc f g)
+    c,4 r as'\p
+    g2 r4 %25
+    r f( f')
+    e2 r4
+    r as,( c)
+    des r r
+    r e,(\cresc des' %30
+    c) r r
+    r r8 c(\> b as)\!
+    r4 r8 des(\> c b)\!
+    \once \hairpinDashed g(\> g' f)\! c'([\f as f)]
+    des-! as'-! c,-! \hA as'-! h,-! \hA as'-! %35
+    << { f4 e } \\ { as, g } >> r
+    r8 as\p as as a a
+    b b ces^\espressivo ces as as
+    as\pp as g g des' des
+    c r r es, es es %40
+    des4 r8 g g g
+    ges4 r8 \hA ges ges ges
+    f f es es es es
+    es\mf es' es es f f
+    fis fis g g g g %45
+    as as as as g g
+    g g g g g g
+    fis\fz a,! a a a a
+    b\fz b b b b b
+    c c d d g, g %50
+    d4 r r
+    r r r8 a'(
+    c^\espressivo b a g fis) c'(
+    es^\espressivo d c b a g) \noBreak
+    fis r r \hA fis( g a) %55
+    \key g \major \time 6/8 \tempoDona \newSpacingSection
+      d, r r r4 r8 \noBreak
+    \after 4*0 ^\senzaSord R2.
+    r8 d\pE d d4 d8
+    r fis d' d4.
+    g,8 g' g g4\cresc c,8 %60
+    h4 a8 g d' d
+    d4\f dis8 e h h
+    h4 h8 a4 a8
+    a4 a8 a4 a8
+    a a' a a r r %65
+    << {
+      cis,4. e
+      g e
+      fis8 \oneVoice r r r \voiceOne a a
+      a \oneVoice r r \voiceOne fis4.
+      e8 \oneVoice r r r \voiceOne a a %70
+      a \oneVoice r r \voiceOne e4.
+      fis4 fis8
+    } \\ {
+      a,4. cis %66
+      e cis
+      d8 s s s a a
+      a s s d4.
+      cis8 s s s a a %70
+      a s s cis4.
+      d4 fis8
+    } >> fis4 fis8
+    h,4. cis
+    d4 h'8 e,4 a8
+    a4 a8 a r r %75
+    r d,\p h fis4 fis8
+    cis'4. d4 c8
+    h4 h8 a4 g8
+    fis-! fis( a) d fis, g
+    g fis d' fis a,\cresc cis %80
+    cis d fis a fis c
+    c4\f a8 fis( g a)
+    d, r r r4 r8
+    R2.
+    r8 d'\p h h4 a8 %85
+    r a d d4.
+    r8 g g g4.\cresc
+    r8 d d d g f
+    e4\f f8 e4 e8
+    e4 e8 d4 d8 %90
+    d4 d8 d4 d8~
+    d d d d r r
+    << {
+      a4. c
+      r4 r8 a'4.
+      h8 \oneVoice r r r \voiceOne d d %95
+      d \oneVoice r r \voiceOne h4.
+      a8 \oneVoice r r r \voiceOne d d
+      d \oneVoice r r \voiceOne a4.
+      h4 d,8
+    } \\ {
+      fis,4. a %93
+      s fis'
+      g8 s s s d d %95
+      d s s g4.
+      fis8 s s s d d
+      d s s fis4.
+      g4 d8
+    } >> d4 d8
+    e4.~ e8 c e %100
+    fis4 d8 g,4 g'8
+    a d, d d4 h8
+    h4\p h8 h4 h8
+    c4 a8 e r r
+    c' a e' d4 d8 %105
+    g,4 r8 r4 r8
+    r d( fis) g r r
+    r h(\cresc d) g, r r
+    <g e' c'>4\f r8 <g d' h'>4 r8
+    <g e' c'>4 r8 <g d' h'>4 r8 %110
+    r g c~ c a a'
+    g g, g e c' e
+    d r r r4 r8
+    d4.\p h
+    g c %115
+    h d
+    e fis,!
+    g d
+    d4\ppE r8 d4 r8
+    d4 r8 r4 r8\fermata \bar "|." %120 finis
+  }
+}

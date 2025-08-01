@@ -545,3 +545,213 @@ SanctusViolinoII = {
     g8 r <c d,> r <h d, g,>4 r\fermata \bar "|." %16 finis
   }
 }
+
+BenedictusViolinoII = {
+  \relative c' {
+    \clef treble
+    \twofourtime \key b \major \time 2/4 \tempoBenedictus
+    r8 b\mf es d
+    r a b a
+    r b~ b16 d( g es)
+    d8 c16([ a)] es'([ c)] a8
+    r d16( b) f'([ d)] b8 %5
+    r es16( es') c( a es c)
+    a8\fz a' b c
+    f, as\> g\! es
+    d16( f) d-! f-! f( es) d-! c-!
+    c4( d8) r %10
+    R2
+    r8 b\p^\pizz b r
+    r a a r
+    r b b r
+    r b c b %15
+    r a a r
+    r b b r
+    b r r4
+    r8 a r b
+    r a a r %20
+    b r r4
+    a8 r r4
+    r8 a r b
+    r a a r
+    h r r4 %25
+    b8 r r4
+    a8 r r4
+    R2*2
+    r8 c\cresc c a %30
+    <a f'>\f r r4
+    R2*7 %38
+    r8 c\f^\arco b a
+    f' d b8. b'16 %40
+    b( a) g-! f-! c( b) a-! b-!
+    b4( a8) r
+    R2*4 %46
+    r8 c\p^\pizz c c
+    b r r4
+    a8 r r4
+    R2*5 %54
+    r8 c'16(\p^\arco es) d([ b)] f8 %55
+    r c16( es) d( b f' d)
+    c8 r r4
+    R2
+    r8 b^\pizz b r
+    r a a r %60
+    r b b r
+    R2
+    r8 c4(^\arco b8)
+    g r r4
+    r8 a\p^\pizz a a %65
+    r b r b
+    r b r c
+    r a r c
+    r b b b
+    r b b r %70
+    a r r4
+    b8 r r4
+    r8 b b b
+    r b b r
+    b r r4 %75
+    a8 r c r
+    b r r4
+    a8 r r4
+    b8 r r4
+    R2*5 %84
+    r8 d\cresc f b
+    <d f,>\f r r4
+    R2*7 %93
+    r8 f,\f^\arco es d
+    b' g es8. es'16 %95
+    es( d) c-! b-! f( es) d-! c-!
+    b8 d'16([\p b)] es([ c)] a8
+    r d,16( b) es( c a c)
+    es4( d8) r\fermata \bar "|." %99 finis
+  }
+}
+
+AgnusViolinoII = {
+  \relative c' {
+    \clef treble
+    \key g \minor \time 3/4 \tempoAgnus
+    g4\p^\conSord b es~
+    es d r
+    r r b'
+    a2 r4
+    r d,( b) %5
+    a r r
+    r es'(\cresc a,
+    b) r r
+    d4.(\fp g8 fis g)
+    gis4(\> a8)\! fis([ g a)] %10
+    c4(\> b8)\! d([\f b g)]
+    es-! b'-! d,-! b'-! cis,-! b'-!
+    d,( cis d es^\espressivo d a)
+    b\p f' f f f f
+    es es b^\espressivo b des des %15
+    c\pp c c c c c
+    b r r b b b
+    a4 r8 a a a
+    as4 r8 h h h
+    c c b b a a %20
+    b( a b des c b)
+    as r r c( b g)
+    g4. des''8(\> c e,)\!
+    f4(\p as, des)~
+    des c r %25
+    r r as'
+    g2 r4
+    r c,( as)
+    g r r
+    r des'(\cresc g, %30
+    as) r r
+    c4.\fp f8( e f)
+    fis4(\> g8)\! e8([ f g)]
+    b4(\> as8)\! c([\f \hA as f)]
+    des-! as'-! c,-! \hA as'-! h,-! \hA as'-! %35
+    c,( h c des^\espressivo c g)
+    as\p es' es es es es
+    des des as^\espressivo as ces ces
+    b\pp b b b b b
+    as r r \hA as as as %40
+    g4 r8 b b b
+    a!4 r8 a a a
+    b b as as g g
+    as\mf as' as as as as
+    c c h h h h %45
+    h h h h c c
+    d d c c c c
+    a!\fz fis8 fis fis fis fis
+    g\fz g g g g g
+    fis fis g g cis, cis %50
+    d4 r r8 fis(
+    a^\espressivo g fis e d) a'(
+    c^\espressivo b a g fis) r
+    r4 r8 b,( c cis) \noBreak
+    d2~ d8 c %55
+    \key g \major \time 6/8 \tempoDona \newSpacingSection
+      h r r r4 r8 \noBreak
+    \after 4*0 ^\senzaSord R2.
+    \grace { h16[ c] } d8(\p c16 h a g) \slurDashed h4 a8
+    \grace { c16[ d] } e8( d16 c h a) \slurSolid a'4( g8)
+    g( a h) c(\cresc d e16 e,) %60
+    fis8( g a) h16( d,8 g16 fis a)
+    g\f h8 h,16 c\trill h e h'8 \once \slurDashed h,16( h' a)
+    g( h a g fis e) d( fis a fis a e)
+    cis( e g cis d fis,) d( fis a d e \hA cis)
+    e( cis e, e' d fis) e8 cis,16( d e d) %65
+    cis8 r r e'16( fis g fis g e)
+    cis( d e d \hA cis h) \hA cis( his \hA cis d e \hA cis)
+    d8 r r fis16( g a gis a fis)
+    d( e fis e d cis) d( \hA cis d e fis d)
+    e8 r r g!16( fis g a g fis) %70
+    e( dis e fis e d) cis8.( e16 \hA cis g)
+    fis( a fis a e ais) h( fis d d' c a)
+    h( e g e h g) e( cis' e \hA cis g e)
+    d( fis h d e g,) a( cis, h' d, cis' e,)
+    fis( a h a\trill cis a) d( fis, g\trill fis e fis) %75
+    d(\p fis eis fis d fis) d( fis e cis d h)
+    cis( d e fis g g) fis( d e fis g a)
+    h( fis g ais h g) \once \slurDashed fis( d a d g, cis)
+    d8 r r r16 fis( d a e' cis)
+    a8 r r r16 a'(\cresc fis a, g' e) %80
+    a,8 r r r16 gis( a h c! d)
+    e(\f dis e \hA dis e \hA dis fis e d c h a)
+    h8 r r r4 r8
+    R2.
+    r8 d\p d d4. %85
+    r8 fis a a4 g8
+    g16( h a c h d) c(\cresc e, d' fis, e' g,)
+    fis( d' h g d a') g( h g c g d')
+    e(\f e, f\trill e gis h) a( e f\trill e d gis)
+    a( e d c h a) h( d g h, fis' a,) %90
+    c( fis a c, g' h,) d( g h d, a' fis)
+    d( fis a fis g h) a8( fis16 g a h)
+    c8 r r a'16( h c h c a)
+    fis( g a g fis e) fis( e fis g a fis)
+    d8 r r h'16( c d cis d h) %95
+    g( a h a g fis) g( fis g a h g)
+    d8 r r c'!16( h c d c h)
+    a( gis a h a g) fis( d a fis d fis)
+    g( d e fis g a) h( c d e fis g)
+    \once \slurDashed g( e c g e fis) g( fis e d c h) %100
+    a( h a a' fis d) g( g, g' e d d')
+    d,( fis a d c a) h( h, c\trill h dis h)
+    e(\p h ais h e h) e( h a' h, g' h,)
+    fis'( c a c fis a) g( h, g h e g)
+    e( h c dis e c) h( d g h, c a) %105
+    h8 r r r16 h( c d e fis)
+    g( d h d a c) a'( fis g h, d g)
+    h(\cresc g d h' fis a) c( a h d h g)
+    e(\f g c g e' c) h( d h g d g)
+    e( g c g e' c) h( d h g d h) %110
+    g( c e d) c-! h-! a( d fis e) d-! c-!
+    \slurDashed h8 g'16( fis g fis) a( g fis e d c) \slurSolid
+    h-! g-! h-! d-! g-! h-! d8 r r
+    h,4.\p d
+    c a %115
+    d h
+    g a
+    h h
+    g4\pp r8 g4 r8
+    g4 r8 r4 r8\fermata \bar "|." %120 finis
+  }
+}

@@ -417,3 +417,147 @@ SanctusOboeI = {
     d8 d fis4 g r\fermata \bar "|." %16 finis
   }
 }
+
+BenedictusOboeI = {
+  \relative c' {
+    \clef treble
+    \twofourtime \key b \major \time 2/4 \tempoBenedictus
+    R2*3
+    r4 r8 a'(\p
+    c b) r b( %5
+    d c) r c16( es)
+    g4~\fz g16( f) f( es)
+    d8 r r4
+    R2*25 %33
+    r8 g,\p g r
+    r a a r %35
+    r c4 c8
+    d f4\fp d8
+    c r e r
+    f4\f e8 f
+    d r r4 %40
+    R2*10 %50
+    r8 c-!\p es!-! r
+    R2
+    r8 d-! f-! r
+    es r d r
+    c r r4 %55
+    f2~\p
+    f16\< fis( a g\> f es d c)
+    b8\! r r4
+    R2*30 %88
+    r8 c\p c r
+    r d[ d] f\f %90
+    f4 es16( d es f)
+    g(\< b) b8~\> b16 c32 b a16[ g]
+    f8\! r a r
+    b4 a8 b
+    g r r4 %95
+    R2
+    r8 d(\p c es)
+    R2
+    R\fermata \bar "|." %99 finis
+  }
+}
+
+AgnusOboeI = {
+  \relative c' {
+    \clef treble
+    \key g \minor \time 3/4 \tempoAgnus
+    R2.*2
+    r4 r es'~\p
+    es d8( c b a)
+    % b8. c16 d4 r %5 for MIDI
+    \after 8 \turn b8. c16 d4 r %5
+    r es\mf es
+    es( c) r
+    r g'\cresc g\!
+    g( d)\! r
+    R2.*2 %11
+    g2\f b,4~
+    b a r
+    R2.*3 %16
+    r8 d!(\< f4)\! es16( d c b)
+    a8-! \noBeam es'(\< g4)\! f16( es d c)
+    h8-! \noBeam f'(\< as4)\! g16( f es d)
+    d( c d es) \afterGrace b4 { c32[ b a b] } d8( c) %20
+    b4 r r
+    R2.*4 %25
+    r4 r des~\p
+    des c8( b as g)
+    as8. b16 c4 r
+    r des\mf des
+    des( b) r %30
+    r f' f
+    f( c) r
+    R2.*2
+    f2\f as,4~ %35
+    as g r
+    R2.*3
+    r8 c!(\< es4)\! des16( c b as) %40
+    g8-! \noBeam des'(\< f4)\! es16( des c b)
+    a8-! \noBeam es'(\< ges4)\! f16( es des c)
+    % \once \slurDashed c( b c des) as4 c8( b) % for MIDI
+    \once \slurDashed c( b c des) \after 8 \turn as4 c8( b)
+    as4 r r
+    R2.*3 %47
+    r4 es'8.(\fz c16 a!8) r
+    r4 d8.(\fz b16 g8) r
+    R2.*6 \bar "||" %55
+    \key g \major \time 6/8 \tempoDona \newSpacingSection
+      R2.*5 %60
+    r4 r8 g4\fE a8\trill
+    h4 h8 \pa e4 e8 \pd
+    \grace { e16[ fis] } g8 fis e d4 cis8
+    e4 d8 fis4 e8
+    g4 fis8 e r r %65
+    R2.
+    g4. e8 r r
+    R2.
+    a4. fis8 r r
+    R2. %70
+    g4. e8 r r
+    fis4 fis8 \pa fis e fis \pd
+    g4. e8 r r
+    d4 e8 \pa a, h cis \pd
+    d4 e8 r fis e %75
+    d r r r4 r8
+    R2.*4 %80
+    r8 fis,\pE a \pa c!4\cresc a8
+    fis\f a c e c a \pd
+    g r r r4 r8
+    R2.*4 %87
+    r4 r8 g'4 f8
+    e4\f gis,8 a4 h8
+    c h a g4 fis8 %90
+    a4 \pao g8 h4 a8
+    c4 h8 a r r
+    R2.
+    a'4. fis8 r r
+    R2. %95
+    h4. g8 r r
+    R2.
+    c4. fis,
+    g4 g8 g fis g
+    \pa g4.~ g8 e c %100
+    a4 h8 c e d
+    d4 c8\trill h h[ h] \pd
+    h r r r4 r8
+    R2.*2 %105
+    r4 r8 r d,\pE g
+    h r r r g h
+    d\cresc r r r h d
+    g4\f e8 d4 h8
+    g'4 e8 d4 h8 %110
+    \pa e4. fis
+    g~ g8 fis e
+    d4 h8 d c a
+    g \pd r r r4 r8
+    R2. %115
+    h8(\p d h) g( a h)
+    d( c a) \grace g16 fis8( e fis)
+    g4. h
+    g4\pp r8 g4 r8
+    g4 r8 r4 r8\fermata \bar "|." %120 finis
+  }
+}

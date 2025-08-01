@@ -1,7 +1,7 @@
 \version "2.24.0"
 
 #(define option-movement-title-format "number-title")
-#(define option-print-all-bar-numbers #t)
+#(define option-print-all-bar-numbers #f)
 \include "ees.ly"
 \include "ees_articulate.ly"
 
@@ -13,8 +13,10 @@ tempoCredo = \tempoMarkup "Allegro moderato"
   tempoEtIncarnatus = \tempoMarkup "Andante sostenuto"
   tempoEtResurrexit = \tempoMarkup "Allegro con spirito"
 tempoSanctus = \tempoMarkup "Adagio"
-  tempoPleni = \tempo 4 = 75
-  % tempoPleni = \tempoMarkup "Allegro moderato"
+  tempoPleni = \tempoMarkup "Allegro moderato"
+tempoBenedictus = \tempoMarkup "Andante cantabile"
+tempoAgnus = \tempoMarkup "Adagio"
+  tempoDona = \tempoMarkup "Allegretto"
 
 \include "notes/ob1.ly"
 \include "notes/ob2.ly"
