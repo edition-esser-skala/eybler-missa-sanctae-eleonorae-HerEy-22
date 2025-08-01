@@ -1,7 +1,7 @@
 \version "2.24.0"
 
 \include "../definitions.ly"
-#(define option-instrument-name "vl 1")
+#(define option-instrument-name "trb 2")
 \include "score_settings/one-staff.ly"
 
 \book {
@@ -9,14 +9,14 @@
     \section "1" "Kyrie"
     \addTocEntry
     \paper {
-      indent = 2\cm
-      system-count = #14
+      system-count = #4
+      indent = 2.5\cm
     }
     \score {
       <<
         \new Staff {
-          \set Staff.instrumentName = "Violino I"
-          \KyrieViolinoI
+          \set Staff.instrumentName = "Trombone II"
+          \KyrieTromboneII
         }
       >>
     }
@@ -26,64 +26,56 @@
     \addTocEntry
     \score {
       <<
-        \new Staff { \GloriaViolinoI }
+        \new Staff { \GloriaTromboneII }
       >>
     }
   }
   \bookpart {
     \section "3" "Credo"
     \addTocEntry
-    \paper { system-count = #21 }
     \score {
       <<
-        \new Staff { \CredoViolinoI }
+        \new Staff { \CredoTromboneII }
       >>
-      \layout { \override Score.SpacingSpanner.common-shortest-duration = #(ly:make-moment 1/16) }
     }
   }
   \bookpart {
     \subsection "Et incarnatus est"
     \addTocEntry
+    \paper { system-count = #2 }
     \score {
       <<
-        \new Staff { \EtIncarnatusViolinoI }
+        \new Staff { \EtIncarnatusTromboneII }
       >>
     }
   }
   \bookpart {
     \subsection "Et resurrexit"
     \addTocEntry
+    \paper { system-count = #14 }
     \score {
       <<
-        \new Staff { \EtResurrexitViolinoI }
+        \new Staff { \EtResurrexitTromboneII }
       >>
     }
   }
   \bookpart {
     \section "4" "Sanctus"
     \addTocEntry
-    \paper { system-count = #6 }
+    \paper { system-count = #2 }
     \score {
       <<
-        \new Staff { \SanctusViolinoI }
+        \new Staff { \SanctusTromboneII }
       >>
     }
-  }
-  \bookpart {
-    \section "5" "Benedictus"
-    \addTocEntry
-    \score {
-      <<
-        \new Staff { \BenedictusViolinoI }
-      >>
-    }
+    \tacet "section" "Benedictus"
   }
   \bookpart {
     \section "6" "Agnus Dei"
     \addTocEntry
     \score {
       <<
-        \new Staff { \AgnusViolinoI }
+        \new Staff { \AgnusTromboneII }
       >>
     }
   }

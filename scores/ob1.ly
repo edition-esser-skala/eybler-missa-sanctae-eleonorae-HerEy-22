@@ -1,7 +1,7 @@
 \version "2.24.0"
 
 \include "../definitions.ly"
-#(define option-instrument-name "vl 1")
+#(define option-instrument-name "ob 1")
 \include "score_settings/one-staff.ly"
 
 \book {
@@ -9,14 +9,14 @@
     \section "1" "Kyrie"
     \addTocEntry
     \paper {
+      system-count = #6
       indent = 2\cm
-      system-count = #14
     }
     \score {
       <<
         \new Staff {
-          \set Staff.instrumentName = "Violino I"
-          \KyrieViolinoI
+          \set Staff.instrumentName = "Oboe I"
+          \KyrieOboeI
         }
       >>
     }
@@ -26,27 +26,26 @@
     \addTocEntry
     \score {
       <<
-        \new Staff { \GloriaViolinoI }
+        \new Staff { \GloriaOboeI }
       >>
     }
   }
   \bookpart {
     \section "3" "Credo"
     \addTocEntry
-    \paper { system-count = #21 }
     \score {
       <<
-        \new Staff { \CredoViolinoI }
+        \new Staff { \CredoOboeI }
       >>
-      \layout { \override Score.SpacingSpanner.common-shortest-duration = #(ly:make-moment 1/16) }
     }
   }
   \bookpart {
     \subsection "Et incarnatus est"
     \addTocEntry
+    \paper { system-count = #6 }
     \score {
       <<
-        \new Staff { \EtIncarnatusViolinoI }
+        \new Staff { \EtIncarnatusOboeI }
       >>
     }
   }
@@ -55,26 +54,27 @@
     \addTocEntry
     \score {
       <<
-        \new Staff { \EtResurrexitViolinoI }
+        \new Staff { \EtResurrexitOboeI }
       >>
     }
   }
   \bookpart {
     \section "4" "Sanctus"
     \addTocEntry
-    \paper { system-count = #6 }
+    \paper { system-count = #2 }
     \score {
       <<
-        \new Staff { \SanctusViolinoI }
+        \new Staff { \SanctusOboeI }
       >>
     }
   }
   \bookpart {
     \section "5" "Benedictus"
     \addTocEntry
+    \paper { system-count = #5 }
     \score {
       <<
-        \new Staff { \BenedictusViolinoI }
+        \new Staff { \BenedictusOboeI }
       >>
     }
   }
@@ -83,7 +83,7 @@
     \addTocEntry
     \score {
       <<
-        \new Staff { \AgnusViolinoI }
+        \new Staff { \AgnusOboeI }
       >>
     }
   }
