@@ -3,6 +3,13 @@
 \include "../definitions.ly"
 \include "score_settings/full-score.ly"
 
+% for print
+% also change instrument name of clno 1/2 in Credo
+% \paper {
+%   outer-margin = 1.7\cm
+%   inner-margin = 1.8\cm
+% }
+
 \book {
   \bookpart {
     \section "1" "Kyrie"
